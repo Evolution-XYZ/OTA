@@ -5,40 +5,44 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS 1.0.6.0 firmware first.
 - OTA will be fine over previous update
-- Device integrity passed as of 13/10/2024
+- Device integrity passed as of 25/10/2024
 - Thanks to @lostark13 @redducc and @jendermine for base tree
-- Thanks to @Zoro0_7  For Testing
-- Thanks to @thepriyanshujangid for providing server
+- Thanks to Steven Strange  For Testing
 
 Device changes:
 ==============================
-fix libperf node
-more underhood improvements
+Use led vibrator
+Migrate to QTI USB Gadget 1.2 HIDL
+Swap to QTI USB init scripts
+Disable proprietary listen sound model
+Add hotword enrollment permissions
+Fix low sound
+Align display props with stock
+Fix cpu variant runtime flag
+Fix powerhint L3 node
 
 Notable ROM changes:
 ==============================
-BatteryMeterView: Battery icon available by default
-BatteryStyles: Handle visibility from controller only
-Build: Make gsi_arm{,64} inherit full_base_telephony.mk
-Disable debug logging on non-eng builds
-Fix PackageManager#getPackageArchiveInfo to cache derived fields
-Merge October 2024 security patches
-Settings: Whitelist WRITE_DEVICE_CONFIG permission
-SystemUI: Disable wifi listening in QS footer when view detached
-SystemUI: Queue data usage text request only if enabled
-SystemUI: Set initial usage text view as invisible
-ThemeOverlayController: Don't enable neutral overlay when we use dark bg
-Updater: Fix broken download ETA/progress
-apn: Add BSNL 4G APN config
-apn: Add Congstar (Telekom)
-apn: Add Truphone (Saily)
-apn: Use the proper settings for SFR (MCC 208 with MNC 10)
-apn: some fixes for Bouygues Telecom
-apns: Update Brazil carriers to 2024
-apns: Update apn config for Tinkoff Mobile
-certification: 10/04/2024 Update
-extras: BlackTheme: Affect more background colors
-extras: BlackTheme: Rework shades of system container
-extras: Update BCR to Version 1.71
-fixup! MobileSignalController: Prevent possible memory leak
-vars: remove fbpk_version and wifi_only
+Evolver: Add ability to hide carrier name on lockscreen
+Evolver: Add OverlaySwitchPreference
+Evolver: Allow to disable Pixel Launcher customization
+Evolver: Allow to toggle BT directly with Bluetooth tile
+Evolver: QuickSettings: Use context instead referring activity directly
+Evolver: Update network traffic settings to use main switch
+PhoneWindowManager: Add vibration when using physical camera button gesture
+PhoneWindowManager: Only react to camera key when necessary
+apn: Add finetwork
+certification: 10/24/2024 Update
+colors: Enable Triluminos Display engine
+colors: Introduce Reality display engine
+config: common: Build nano_recovery
+extras: Update BCR to Version 1.72
+kernel: Add {recovery}kernelconfig
+kernel: Clean headers installed in uapi/asm as well
+overlay: Do not set config_credentialManagerDialogComponent
+overlay: Separate Pixel Launcher overlays
+overlay: SimpleDeviceConfig: Adjust values for SeedVault Backup usage
+overlay: Update device_config
+overlay: Use autofill compatibility mode for browsers
+recovery_ui: Opt-out battery monitoring on battery-less devices
+sepolicy: Label ro.recovery.batteryless property
