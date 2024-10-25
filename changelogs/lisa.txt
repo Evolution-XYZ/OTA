@@ -1,4 +1,4 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with October 2024 QPR3 (r67) security patches
 
 Notes:
 ==============================
@@ -11,8 +11,9 @@ Notes:
 
 Device changes:
 ==============================
-Evolution-X 9.3 Build
+Evolution-X 9.5 Build
 leica 5.0 ( leica holybear )
-Adapt per app refresh rate for lisa
-Update blobs to OS1.0.5.0.UKOMIX
-Turn on screen on unplug
+Update blobs from haydn V816.0.6.0.UKKMIXM
+Use AOSP default Codec2/OMX ranks
+Enable elf checks
+Nuke moto dolbys
