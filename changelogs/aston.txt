@@ -1,2 +1,7 @@
-Changelog:
-- Initial Release
+- Make automatic refresh rate switching more quicker
+- Fix lockscreen charging info
+- Add systemui restart to advanced reboot list
+- Add KernelSU Support by default
+- Improve right status bar padding
+- Improve UDFPS Dimming
+- Fix Google Signin issue in some apps like facebook reddit chatgpt etc.
