@@ -5,21 +5,15 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS 1.0.6.0 firmware first.
 - OTA will be fine over previous update
-- Device integrity passed as of 25/10/2024
+- Device integrity passed as of 01/11/2024
 - Thanks to @lostark13 @redducc and @jendermine for base tree
-- Thanks to Steven Strange  For Testing
 
 Device changes:
 ==============================
-Use led vibrator
-Migrate to QTI USB Gadget 1.2 HIDL
-Swap to QTI USB init scripts
-Disable proprietary listen sound model
-Add hotword enrollment permissions
-Fix low sound
-Align display props with stock
-Fix cpu variant runtime flag
-Fix powerhint L3 node
+Added support for HBM & CABC LCD features.
+Configured available color modes.
+Updated CarrierConfig from HyperOS 1.0.5.
+Disabled Quick Tap support.
 
 Notable ROM changes:
 ==============================
