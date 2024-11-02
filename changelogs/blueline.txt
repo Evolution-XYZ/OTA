@@ -1,16 +1,18 @@
-Rom changes:
-=======================
-Merged September 2024 Security Patch
-Play integrity now passes by default
-Add Hide ADB and developer setting enable status
-Fixed Magic eraser crashes
-Introduce black theme styles
-Introduce boot animation styles
-Introduce bootanimation styles selection
-Introduce QS rows setting
-Introduce Shake Gestures
-Introduce Three finger swipe/long press gestures
-Move Notch Cutout to Display
-Revamp face unlock indication
-Revamp QS data usage UI
-Lock/Unlock sounds
+-------------------------
+FOR BLUELINE AND CROSSHATCH
+-------------------------
+
+Rom changes : 
+- October security patches
+- various misc changes
+
+Device changes : 
+- Root enhancements : Magisk now works.
+- Dropped rom size from 2.6 to ~2Gb
+- Dropped useless google packages
+- Improved RAM management
+- Changed Kernel : now using Cybertron
+- Kernel improvements
+- Improved stability
+- System and System_ext reverted to ext4
+- Now ships GCAM by default
