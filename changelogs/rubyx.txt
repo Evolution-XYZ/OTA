@@ -1,0 +1,14 @@
+NOTES:
+- Dirty flash can be done from unofficial builds
+- Firmware is always included
+- Dolby Atmos, ViPER4AndroidFX and BCR (Basic Call Recorder) are included
+
+=== 7 November 2024 ===
+
+Device Changes:
+- SEPolicy: fix denials for some graphics libs
+
+ROM changes:
+- Initial official build
+- October security patch
+- Play integrity will pass device now
