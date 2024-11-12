@@ -1,5 +1,8 @@
-- Merged October 2024 Security Patch
-- Bring back extensive Battery Styles Customisations
-- Bring back old legacy three finger swipe to screenshot since new swipe gestures were highly problematic for some / incompatible with many kernels.
-- Fix updater broken download ETA/progress
-- Improve BlackTheme and make it more wider
+- FINAL ANDROID 14 RELEASE
+- Fixed slow charging issue for some users
+- Fix google signin issues in various apps like fb X, chatgpt etc.
+- Add option for systemui restart in advanced reboot options
+- Improve default bootanimation parameters
+- Disable few QS Extensive visual references that were causing QS Janks
+- Added option to disable the QS dialog for the Bluetooth tile and directly toggle on/off the BT functionality
+- Reduce overall zip size
