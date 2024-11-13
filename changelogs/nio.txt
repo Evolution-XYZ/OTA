@@ -1,7 +1,5 @@
-Nio: 10/11/2024 Update
+Nio: 11/13/2024 Update
 
-Bump to version 9.5
-October Security Patch
-Battery styles are re-introduced
-Viper4Android re-introduced
-Some under the hood improvements
+Bump to version 9.6
+November Security Patch
+Staging for a15 vic
