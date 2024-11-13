@@ -4,18 +4,19 @@ super_empty.img: https://sourceforge.net/projects/evolution-x/files/beryllium/14
 This is Android 14 with September 2024 security patches
 Device changes:
 =======================
-None
+Configure SQLite to operate in MEMORY mode
+Speed-profile services and wifi-service to reduce RAM and storage
+Misc performance and stabibility improvements
 
 Rom changes:
 =======================
-Merged September 2024 Security Patch
-Add more bootanimation styles
-Evolver: Bring back custom battery styles
-Evolver: Import custom dev options from Settings
-General stabibility and performance improvements
-Improve PowerOffalarm
-Introduce Lock/Unlock sounds
-Play integrity now passes by default
-Removed custom 3-finger gestures (default to screenshot)
-Update BCR to Version 1.71
-Update translations
+Merged October 2024 Security Patch
+Added option to hide the status bar carrier text on the lockscreen
+Added option to disable the background blur in the recents window when using Pixel Launcher
+Added option to disable the QS dialog for the Bluetooth tile and directly toggle on/off the BT functionality
+Basic Call Recorder has been updated to v1.72
+Reality display engine is now available
+The old Google sound search QS tile has been removed
+Using the physical camera button gesture (double tap power to open camera) will now provide a vibration
+Play integrity now passes by default (as of 04/11/2024)
+Misc fixes and improvements

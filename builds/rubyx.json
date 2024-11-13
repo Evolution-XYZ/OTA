@@ -1,0 +1,28 @@
+{
+    "response": [
+      {
+        "maintainer": "hiroshi. (Superuser)",
+        "oem": "Xiaomi",
+        "device": "Redmi Note 12 Pro / Pro+ 5G / Discovery",
+        "filename": "EvolutionX-14.0-20241107-rubyx-v9.5-Official.zip",
+        "download": "https://sourceforge.net/projects/evolution-x/files/rubyx/14/EvolutionX-14.0-20241107-rubyx-v9.5-Official.zip/download",
+        "timestamp": 1731035637,
+        "md5": "fbb62f1358931ea76cb669ef13a0aec1",
+        "sha256": "bf02536333500e91fc55850090e5634be058e8f4503ebf396b2400e8a009bbb6",
+        "size": 2397165222,
+        "version": "9.5",
+        "buildtype": "Release",
+        "forum": "https://xdaforums.com/t/rom-14-0-rubyx-official-evolution-x-9-5-11-07-24.4701816/",
+        "firmware": "",
+        "paypal": "https://paypal.me/zerotohiro",
+        "telegram": "https://t.me/Superuser1958",
+        "github": "joshuah345",
+        "initial_installation_images": [
+            "super_empty",
+            "vbmeta",
+            "dtbo",
+            "boot"
+        ]
+      }
+    ]
+  }

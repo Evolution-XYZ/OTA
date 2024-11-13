@@ -1,7 +1,7 @@
-Changelog:
-• Merged September 2024 Security Patch
-• Fix three finger gestures
-• Add various Lock/Unlock sounds
-• Improve Island Notification
-• Improve PowerOffalarm
-• Update translations
+- FINAL ANDROID 14 RELEASE
+- Fix google signin issues in various apps like fb X, chatgpt etc.
+- Add option for systemui restart in advanced reboot options
+- Improve default bootanimation parameters
+- Disable few QS Extensive visual references that were causing QS Janks
+- Added option to disable the QS dialog for the Bluetooth tile and directly toggle on/off the BT functionality
+- Reduce overall zip size

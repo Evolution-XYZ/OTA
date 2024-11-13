@@ -1,5 +1,27 @@
-================= September 20th =======================================
+===================
 ROM Sources
-==================================================================
-Evolution 9.4 
-September security patch
+===================
+October Security Patch
+Evolver: Add ability to hide carrier name on lockscreen
+Evolver: Add OverlaySwitchPreference
+Evolver: Allow to disable Pixel Launcher customization
+Evolver: Allow to toggle BT directly with Bluetooth tile
+Evolver: QuickSettings: Use context instead referring activity directly
+Evolver: Update network traffic settings to use main switch
+PhoneWindowManager: Add vibration when using physical camera button gesture
+PhoneWindowManager: Only react to camera key when necessary
+apn: Add finetwork
+certification: 10/24/2024 Update
+colors: Enable Triluminos Display engine
+colors: Introduce Reality display engine
+config: common: Build nano_recovery
+extras: Update BCR to Version 1.72
+kernel: Add {recovery}kernelconfig
+kernel: Clean headers installed in uapi/asm as well
+overlay: Do not set config_credentialManagerDialogComponent
+overlay: Separate Pixel Launcher overlays
+overlay: SimpleDeviceConfig: Adjust values for SeedVault Backup usage
+overlay: Update device_config
+overlay: Use autofill compatibility mode for browsers
+recovery_ui: Opt-out battery monitoring on battery-less devices
+sepolicy: Label ro.recovery.batteryless property

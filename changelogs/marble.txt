@@ -1,31 +1,24 @@
-This is Android 14 with October 2024 security patches
+This is Android 14 with November 2024 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
+- Use latest TWRP or OFRP-R11.1_6-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
-- Install LosKsu9.4.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.4.zip/download) for root.
-- Play Integrity passes, RCS works (As of 10/04/2024).
+- Install LosKsu9.6.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu9.6.zip/download) for root.
+- Play Integrity passes, RCS works (As of 11/13/2024).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Drop unused qapeservice seccomp_policy
-Fix soname with older patchelf
-Import qcril_database and generate the db at build time
-Move qcom-system-daemon seccomp_policy to the proper section
-Move qcril_database to device tree
-Use extract-utils FIX_SONAME helper
-qcril_database: Add migration to disable redir_party_num
-qcril_database: Add missing migration for db 15.0
+None
 
 Notable ROM changes:
 ==============================
-Build: Make gsi_arm{,64} inherit full_base_telephony.mk
-Merge October 2024 security patches
-SystemUI: Disable wifi listening in QS footer when view detached
-SystemUI: Queue data usage text request only if enabled
-SystemUI: Set initial usage text view as invisible
-ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+Merge November 2024 security patches
+Remove fading squiggle animation of qs media player
+SenseProvider: Allow our face unlock to be used on third-party apps
+UdfpsAnimation: Address memory leaks and improvements
+vars: Update qcom tags

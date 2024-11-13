@@ -4,22 +4,23 @@
       "maintainer": "Joey Huab",
       "oem": "Xiaomi",
       "device": "Mi 9T Pro / Redmi K20 Pro",
-      "filename": "EvolutionX-14.0-20241010-raphael-v9.5-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/raphael/14/EvolutionX-14.0-20241010-raphael-v9.5-Official.zip/download",
-      "timestamp": 1728586873,
-      "md5": "355b3d8813b02126a14d922da8168754",
-      "sha256": "ec1ae6a72823cc669750b13fbb47f040edb8f11b9e67ad677c947abdeaeb384f",
-      "size": 3182573639,
+      "filename": "EvolutionX-14.0-20241025-raphael-v9.5-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/raphael/14/EvolutionX-14.0-20241025-raphael-v9.5-Official.zip/download",
+      "timestamp": 1729847049,
+      "md5": "9fa2bd81f733d946e95374b59daffa80",
+      "sha256": "e0331c2358a1c2f1dfa3c6bd899a5194f3d937b5f687474707828b5ebeb9c41e",
+      "size": 3180656715,
       "version": "9.5",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-14-0_r35-raphael-official-evolution-x-05-10-24.4644402/",
       "firmware": "https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
-      "telegram": "",
+      "telegram": "shazizard",
       "github": "joeyhuab",
       "initial_installation_images": [
         "boot",
-        "dtbo"
+        "dtbo",
+        "recovery"
       ]
     }
   ]

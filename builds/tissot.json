@@ -3,7 +3,7 @@
     {
       "maintainer": "Joey Huab",
       "oem": "Xiaomi",
-      "device": "Mi A1",
+      "device": "Xiaomi Mi A1",
       "filename": "EvolutionX-14.0-20241010-tissot-v9.5-Official.zip",
       "download": "https://sourceforge.net/projects/evolution-x/files/tissot/14/EvolutionX-14.0-20241010-tissot-v9.5-Official.zip/download",
       "timestamp": 1728559522,
@@ -15,7 +15,7 @@
       "forum": "https://xdaforums.com/t/rom-14-0_r35-tissot-official-evolution-x-05-11-24.4666390/",
       "firmware": "https://xmfirmwareupdater.com/miui/tissot/stable/V10.0.24.0.PDHMIXM/",
       "paypal": "https://linktr.ee/joeyhuab",
-      "telegram": "",
+      "telegram": "shazizard",
       "github": "joeyhuab",
       "initial_installation_images": [
         "boot"
