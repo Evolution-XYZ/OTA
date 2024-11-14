@@ -1,4 +1,4 @@
-===== 12 Oct 2024 =====
+===== 14 Nov 2024 =====
 
 NOTES:
 - Dirty install from previous official is fine
@@ -6,8 +6,36 @@ NOTES:
 - Builds are signed now
 
 DEVICE:
-- Disable turbulence noise after clicking the play button
+Set dim layer zOrder
+Merge kernel_qcom_sm8150 from LOS in kernel
 
 ROM:
-- EvolutionX 9.5
-- October security patch
+EvolutionX 9.6
+November security patch
+Play Integrity Fix from 2024/10/24
+Evolver: Add ability to hide carrier name on lockscreen
+Evolver: Add OverlaySwitchPreference
+Evolver: Allow to disable Pixel Launcher customization
+Evolver: Allow to toggle BT directly with Bluetooth tile
+Evolver: QuickSettings: Use context instead referring activity directly
+Evolver: Update network traffic settings to use main switch
+PhoneWindowManager: Add vibration when using physical camera button gesture
+PhoneWindowManager: Only react to camera key when necessary
+apn: Add finetwork
+colors: Enable Triluminos Display engine
+colors: Introduce Reality display engine
+config: common: Build nano_recovery
+extras: Update BCR to Version 1.72
+kernel: Add {recovery}kernelconfig
+kernel: Clean headers installed in uapi/asm as well
+overlay: Do not set config_credentialManagerDialogComponent
+overlay: Separate Pixel Launcher overlays
+overlay: SimpleDeviceConfig: Adjust values for SeedVault Backup usage
+overlay: Update device_config
+overlay: Use autofill compatibility mode for browsers
+recovery_ui: Opt-out battery monitoring on battery-less devices
+sepolicy: Label ro.recovery.batteryless property
+Remove fading squiggle animation of qs media player
+SenseProvider: Allow our face unlock to be used on third-party apps
+UdfpsAnimation: Address memory leaks and improvements
+vars: Update qcom tags
