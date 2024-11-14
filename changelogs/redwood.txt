@@ -1,10 +1,23 @@
-This is Android 14 with October 2024 security patches
+This is Android 14 with November 2024 security patches
 
 Notes:
 ==============================
 - Both panel are supported.
-- Play Integrity passes, RCS works (As of 13/10/2024).
+- Play Integrity passes, RCS works (As of 14/11/2024).
+- Don't use night mode to while using camera ( it captures pinkish image )
 
+Device Changes:
+==================
+14-November-2024
+==================
+Dropped Dolby support for now 
+Added KernelSU support again 
+
+Notable ROM changes:
+===================
+Remove fading squiggle animation of qs media player
+SenseProvider: Allow our face unlock to be used on third-party apps
+vars: Update qcom tags
 
 Device Changes:
 ==================
