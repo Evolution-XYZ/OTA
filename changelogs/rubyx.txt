@@ -12,3 +12,8 @@ ROM changes:
 - Initial official build
 - October security patch
 - Play integrity will pass device now
+
+=== 16 November 2024 ===
+
+ROM changes:
+Merge November security patch
