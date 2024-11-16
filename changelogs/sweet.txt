@@ -1,4 +1,4 @@
-This is Android 14 with September 2024 QPR3 (r67) security patches
+This is Android 14 with November 2024 QPR3 (r67) security patches
 
 Notes:
 ==============================
@@ -8,11 +8,19 @@ Notes:
 - Play Integrity passes, RCS reported as working
 - Includes Leica Camera.
 - Use XDA flashing guide
-- Use pnlu Miui 14 firmware
+- Use only Miui 14 firmware
 
 Device changes:
 ==============================
 Evolution-X 9.4 Build
 leica 5.0 ( leica holybear )
-switch to KewL kernel
-switch to pulkit tree base 
+Misc. changes and fixes
+
+
+Notable ROM changes:
+==============================
+Merge November 2024 security patches
+Remove fading squiggle animation of qs media player
+SenseProvider: Allow our face unlock to be used on third-party apps
+UdfpsAnimation: Address memory leaks and improvements
+vars: Update qcom tags
