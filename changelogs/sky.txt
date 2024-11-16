@@ -1,42 +1,22 @@
-This is Android 14 with October 2024 security patches
+This is Android 14 with November 2024 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS 1.0.6.0 firmware first.
 - OTA will be fine over previous update
-- Device integrity passed as of 01/11/2024
+- Device integrity passed as of 17/11/2024
 - Thanks to @lostark13 @redducc and @jendermine for base tree
+- Thanks to @thepriyanshujangid for server related help
 
 Device changes:
 ==============================
-Added support for HBM & CABC LCD features.
-Configured available color modes.
-Updated CarrierConfig from HyperOS 1.0.5.
-Disabled Quick Tap support.
+Manage HBM and CABC states on screen events
 
 Notable ROM changes:
 ==============================
-Evolver: Add ability to hide carrier name on lockscreen
-Evolver: Add OverlaySwitchPreference
-Evolver: Allow to disable Pixel Launcher customization
-Evolver: Allow to toggle BT directly with Bluetooth tile
-Evolver: QuickSettings: Use context instead referring activity directly
-Evolver: Update network traffic settings to use main switch
-PhoneWindowManager: Add vibration when using physical camera button gesture
-PhoneWindowManager: Only react to camera key when necessary
-apn: Add finetwork
-certification: 10/24/2024 Update
-colors: Enable Triluminos Display engine
-colors: Introduce Reality display engine
-config: common: Build nano_recovery
-extras: Update BCR to Version 1.72
-kernel: Add {recovery}kernelconfig
-kernel: Clean headers installed in uapi/asm as well
-overlay: Do not set config_credentialManagerDialogComponent
-overlay: Separate Pixel Launcher overlays
-overlay: SimpleDeviceConfig: Adjust values for SeedVault Backup usage
-overlay: Update device_config
-overlay: Use autofill compatibility mode for browsers
-recovery_ui: Opt-out battery monitoring on battery-less devices
-sepolicy: Label ro.recovery.batteryless property
+Merge November 2024 security patches
+Remove fading squiggle animation of qs media player
+SenseProvider: Allow our face unlock to be used on third-party apps
+UdfpsAnimation: Address memory leaks and improvements
+vars: Update qcom tags
