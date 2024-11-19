@@ -1,4 +1,4 @@
-2024-10-11
+2024-11-18
 
 
 To use this release you need:
@@ -13,17 +13,16 @@ Due to in tree changes CLEAN FLASH IS RECOMMENDED!!
 
 # Device / Kernel
 
-  * cupid: tidy up device tree
-  * cupid: update firmware and blobs to cupid_eea_global_images_OS1.0.12.0.ULCEUXM_14.0
+  * cupid: overlay: Don't let any carrier default WFC mode to `IMS Preferred`
+  * cupid: media: Drop android version check for netflix bsp property
+  * cupid: Add missing xiaomi ecc list to vendor
+  * cupid: Import missing AtFwd2 app
+  * cupid: patch libwfdnative.so to remove android.hidl.base@1.0.so dependency
+
 
 
 # Rom
 
-Build: Make gsi_arm{,64} inherit full_base_telephony.mk
-Merge October 2024 security patches
-SystemUI: Disable wifi listening in QS footer when view detached
-SystemUI: Queue data usage text request only if enabled
-SystemUI: Set initial usage text view as invisible
-ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+November Security patch
 
 ... and many more
