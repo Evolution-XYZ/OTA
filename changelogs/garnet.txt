@@ -1,16 +1,23 @@
-This is Android 14 with October 2024 QPR3 (r55) security patches
+This is Android 14 with November 2024 security patches
 
 Notes:
 ==============================
 - Make sure to flash firmware according to your device variant.
 - Make sure to follow flashing steps on XDA.
-- Play Integrity passes, RCS works (As of 08/21/2024).
+- Play Integrity passes
 - Thanks a lot to @grewal for his tree base.
 - Found any bug? report it with a proper log
 
 Changelog:
 ==============================
-- October security patches
-- Improved RAM management
-- Better battery usage
-- Other dolby shits
+- Fixed AOD flickering.
+- MiCam video filters fixed.
+- Enabled Qualcomm TrueWireless Stereo.
+- Update from V816.0.17.0.UNRMIXM
+- audio: Import Bluetooth Devices Encodings for Dolby Processing.
+- overlay: Disable wallpaper zooming.
+- overlay: Disable slow blur effect to avoid laggish blur effect.
+- overlay: Improve auto brightness.
+- overlay: Rework supported color modes
+- overlay: Make the UI smoother.
+- overlay: configure SQLite to operate in MEMORY mode.
