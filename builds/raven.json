@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Anierin Bliss",
+      "oem": "Google",
+      "device": "Pixel 6 Pro",
+      "filename": "EvolutionX-15.0-20241123-raven-10.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/raven/15/EvolutionX-15.0-20241123-raven-10.0-Official.zip/download",
+      "timestamp": 1732389125,
+      "md5": "900b02ae40744ae897ec1bc483f81aab",
+      "sha256": "74fdd59a9741677859c8deac692590409d6706552e7bafe26cf3469a71a070c7",
+      "size": 2382042455,
+      "version": "10.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-23-2024.4547009/",
+      "firmware": "",
+      "paypal": "https://PayPal.me/AnierinB",
+      "telegram": "https://telegram.me/AnierinB",
+      "github": "AnierinBliss",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
