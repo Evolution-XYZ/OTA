@@ -1,1 +1,14 @@
-Initial Android 15 release
+This is Android 15 with November 2024 (r5) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Make sure to be on HyperOS firmware first.
+- Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r5-official-evolution-x-10-0-11-24-2024.4659931) for root.
+- Play Integrity passes, RCS works (As of 11/25/2024).
+- Includes stock camera ported by NeoArian.
+
+Device changes:
+==============================
+Update Baalam kernel to 5.10.228
+Fix UDFPS icon
