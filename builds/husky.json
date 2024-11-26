@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "Oscar Mariscal",
+      "oem": "Google",
+      "device": "Pixel 8 Pro",
+      "filename": "EvolutionX-15.0-20241125-husky-10.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/husky/15/EvolutionX-15.0-20241125-husky-10.0-Official.zip/download",
+      "timestamp": 1732593324,
+      "md5": "398eded22ff236c917f1797798bc5c59",
+      "sha256": "539036d9bce4263a441b7d0a4f32de9a7e59f0289af8545ff108a0416c751298",
+      "size": 2625457122,
+      "version": "10.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-25-24.4649678/",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "telegram": "https://telegram.me/OscarM1019",
+      "github": "osm1019",
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
