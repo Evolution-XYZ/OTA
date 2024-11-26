@@ -18,7 +18,10 @@
       "firmware": "https://firmware link",
       "paypal": "https://donation link",
       "telegram": "https://telegram link",
-      "github": "Github username"
+      "github": "GitHub Username",
+      "initial_installation_images": [
+        "img files to be flashed before sideloading Evolution X's zip"
+      ]
     }
   ]
 }
