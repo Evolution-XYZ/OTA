@@ -1,0 +1,16 @@
+2024-12-04
+
+
+To use this release you need:
+   
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Reboot recovery
+4. Format Data
+
+CLEAN FLASH IS RECOMMENDED!!
+
+# Rom / Device
+
+ * Initial A15 Release
