@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Tejas Singh (tejas101k)",
+      "oem": "Xiaomi",
+      "device": "Redmi Note 8/8T",
+      "filename": "EvolutionX-15.0-20241204-ginkgo-10.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/ginkgo/15/EvolutionX-15.0-20241204-ginkgo-10.0-Official.zip/download",
+      "timestamp": 1733337169,
+      "md5": "e5e0635fac29a29f1cdaa37e989ec8e4",
+      "sha256": "4eabca156c83a98e31f0193afb5890b855057638c560698aa269758e36fd4680",
+      "size": 1876901958,
+      "version": "10.0",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-official-unified-evolution-x-for-redmi-note-8-8t.4639684/",
+      "firmware": "",
+      "paypal": "https://paypal.me/tejas101k",
+      "telegram": "https://t.me/tejas101k",
+      "github": "tejas101k",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
