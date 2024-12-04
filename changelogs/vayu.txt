@@ -1,0 +1,7 @@
+• Initial Android 15 Release
+• Fix no call outgoing sound until the receiver picks the call when VoLTE enabled
+• Improve bluetooth connectivity, audio and add support for more codecs
+• Improve Network Connectivity
+• Address QS lags in presence of notifications or light mode
+• Improve battery backup / heating/ charging speeds
+• Improve RAM Management
