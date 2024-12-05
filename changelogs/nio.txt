@@ -1,0 +1,3 @@
+Intitial A15 release
+November security patch
+Clean flash not required but recommended
