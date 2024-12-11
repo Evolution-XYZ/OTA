@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+      "maintainer": "OscarM",
+      "oem": "Google",
+      "device": "Pixel 9 Pro XL",
+      "filename": "EvolutionX-15.0-20241210-komodo-10.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/komodo/15/EvolutionX-15.0-20241210-komodo-10.0-Official.zip/download",
+      "timestamp": 1733882202,
+      "md5": "eb8018ff529de051645943bbde90f53e",
+      "sha256": "38e037b4f50c88e9ddd8bdc1801c40cef60d2b23a3ea7834628db3149c59554e",
+      "size": 2950929227,
+      "version": "10.0",
+      "buildtype": "Release",
+      "forum": "",
+      "firmware": "",
+      "paypal": "https://paypal.me/osmjr1019",
+      "telegram": "https://telegram.me/OscarM1019",
+      "github": "osm1019"
+      "initial_installation_images": [
+        "boot",
+        "dtbo",
+        "vendor_kernel_boot",
+        "vendor_boot"
+      ]
+    }
+  ]
+}
