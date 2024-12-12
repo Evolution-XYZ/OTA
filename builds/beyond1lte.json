@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Achille (0xSharkBoy)",
+      "oem": "Samsung",
+      "device": "Galaxy S10",
+      "filename": "EvolutionX-15.0-20241209-beyond1lte-10.0-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/beyond1lte/15/EvolutionX-15.0-20241209-beyond1lte-10.0-Official.zip/download",
+      "timestamp": "1733740969",
+      "md5": "f5a04ff483a5eb6acb199c304b4fb64e",
+      "sha256": "f976b66e7d896ea28be1e57c41180ec4f848d59e34f5bda84ea6fad0fe7ed318",
+      "size": "2325916014",
+      "version": "10.0",
+      "buildtype": "Monthly",
+      "forum": "https://xdaforums.com/t/rom-official-15-evolutionx-10-x-aosp-encryption.4669084/",
+      "firmware": "",
+      "paypal": "https://ko-fi.com/0xsharkboy",
+      "telegram": "https://t.me/EvolutionXexynos982x",
+      "github": "0xsharkboy",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
