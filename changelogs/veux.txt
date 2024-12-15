@@ -9,9 +9,9 @@ Notes :
 Device Changes :
 ================
 - November SP | QPR3
-- Switch to Paimon Kernel
 - Switch from Ultra Low latency to Low Latency. Fixes audio glitch on calls.
 - Introduced ViperFX.
+- Fixed Broken Notification Sound.
 
 Notable ROM changes:
 ==============================
