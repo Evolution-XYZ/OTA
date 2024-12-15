@@ -1,4 +1,4 @@
-Evolution-X 9.6 | Build Date : 07-12-2024
+Evolution-X 9.6 | Build Date : 12-14-2024
 ====================================================================
 Notes :
 =======
@@ -9,9 +9,9 @@ Notes :
 Device Changes :
 ================
 - November SP | QPR3
-- Switch to Paimon Kernel
 - Switch from Ultra Low latency to Low Latency. Fixes audio glitch on calls.
 - Introduced ViperFX.
+- Fixed broken Notification Sound.
 
 Notable ROM changes:
 ==============================
