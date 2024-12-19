@@ -1,1 +1,27 @@
-Initial Android 15 release
+This is Android 15 with November 2024 (r5) security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Make sure to be on HyperOS firmware first.
+- Play Integrity passes, RCS works (As of 12/19/2024).
+- OTA will be fine over previous update
+- Recommended Firmware [https://xmfirmwareupdater.com/firmware/sky/stable/OS2.0.3.0.VMWINXM/]
+
+
+Notable ROM changes:
+==============================
+- Missing DNS options added
+- Per-app volume added
+- Missing Settings animations added
+- Wi-Fi MAC address randomization option added
+- Settings config to hide Now Playing on non-Pixel devices added
+- Add back Unrestricted battery usage option to App battery usage screen
+- Sound, Data Switch, Volume panel, Locale, Preferred network type QS tiles added
+- added Smart 5G & swipe to screenshot
+
+Device side Changes
+==============================
+- Switched to the ext4 file system for improved performance and reliability.
+- Disabled the turbulence effect in the source to eliminate lag when playing music from Quick Settings (QS).
+- Updated Blobs from HyperOS OS2.0.3.0.VMWINXM
