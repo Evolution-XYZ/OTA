@@ -1,0 +1,17 @@
+This is Android 15 QPR1 with December 2024 security patches
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Make sure to be on HyperOS firmware first.
+- Clean flash is required if coming from Android 14 builds
+- Play Integrity passes, RCS works (As of 12/26/2024).
+- Read flashing guide on XDA
+
+Device changes:
+==============================
+None
+
+Notable ROM changes:
+==============================
+Initial Android 15 QPR1 release
+Merge December 2024 security patches
