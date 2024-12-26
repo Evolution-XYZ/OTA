@@ -1,7 +1,9 @@
-• Initial Android 15 Release
-• Fix no call outgoing sound until the receiver picks the call when VoLTE enabled
-• Improve bluetooth connectivity, audio and add support for more codecs
-• Improve Network Connectivity
-• Address QS lags in presence of notifications or light mode
-• Improve battery backup / heating/ charging speeds
-• Improve RAM Management
+* Merged December 2024 (Android 15 QPR1) Security Patch
+* Bring back most features/customisations from A14
+* Add circle to search 
+* Fixed IR Blaster (Remote)
+* Fixed side fingerprint icon position 
+* Add Battery Styles and Battery Percentage toggle
+* Add GameSpace, swipe to screenshot and many other day to day features back
+* More QS Tiles (Sound, dataswitch and else)
+* Many More (Features & Fixes that were missing on last Initial Android 15 Release)
