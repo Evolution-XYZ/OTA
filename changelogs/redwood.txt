@@ -1,1 +1,21 @@
-Initial Android 15 release
+This is Android 15 QPR1 with December 2024 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Play Integrity passes, RCS works (As of 12/27/2024).
+- Includes Dolby Atmos, POCO camera.
+
+Device Changes:
+==============================
+27-December-2024
+==============================
+None
+
+Notable ROM changes:
+==============================
+GamesPropsUtils: Spoof as S24 Ultra for Diablo Immortal
+GamesPropsUtils: Update spoof for PUBG and Tencent Games
+Settings: Add option to cycle through ringer modes
+Settings: Add Pixel Launcher to allowlist for settings search
+SystemUIClocks: Drop SystemUIClocks-Weather
