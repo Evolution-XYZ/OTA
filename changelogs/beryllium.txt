@@ -1,0 +1,14 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/images/recovery.img/download
+KSU: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-20241228.zip/download
+KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20241228.zip/download
+
+
+This is Android 15 with December 2024 security patches
+Device changes:
+=======================
+Lower swappiness to 60
+Tuned lmkd parameters
+
+Rom changes:
+=======================
+Initial Android 15 release

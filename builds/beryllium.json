@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Le Hong Duc (tedomi2705)",
+      "oem": "Xiaomi",
+      "device": "POCO F1",
+      "filename": "EvolutionX-15.0-20241227-beryllium-10.1-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/beryllium/15/EvolutionX-15.0-20241227-beryllium-10.1-Official.zip/download",
+      "timestamp": 1735311704,
+      "md5": "424c583615af433084b5122910532ef2",
+      "sha256": "35216b651aaf1b4570e79a27ca45b291bd959fda93313c92f876f05d0c7425cb",
+      "size": 2300058538,
+      "version": "10.1",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-14-beryllium-official-evolution-x-10-1-2024-12-29.4684021/",
+      "firmware": "https://xmfirmwareupdater.com/firmware/beryllium/stable/V12.0.3.0.QEJMIXM/",
+      "paypal": "https://paypal.me/tedomi270503",
+      "telegram": "https://t.me/tedomi2705",
+      "github": "tedomi2705",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
