@@ -10,5 +10,14 @@ Notes:
 
 Device changes:
 ==============================
-Update Baalam kernel to 5.10.228
-Fix UDFPS icon
+Add FEAS 2.2
+Update Baalam kernel to 5.10.230
+Update vendor security patches to V816.0.13.0.UMNMIXM
+
+Notable ROM changes:
+==============================
+GamesPropsUtils: Spoof as S24 Ultra for Diablo Immortal
+GamesPropsUtils: Update spoof for PUBG and Tencent Games
+Settings: Add option to cycle through ringer modes
+Settings: Add Pixel Launcher to allowlist for settings search
+SystemUIClocks: Drop SystemUIClocks-Weather
