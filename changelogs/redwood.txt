@@ -3,8 +3,32 @@ This is Android 15 QPR1 with December 2024 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 12/27/2024).
+- Play Integrity passes, RCS works (As of 12/31/2024).
 - Includes Dolby Atmos, POCO camera.
+
+Device Changes:
+==============================
+31-December-2024
+==============================
+- Set game refresh rate override to 120
+- Updated camera to OS1.0.13.0.UMSCNXM and patched it to Match camera icon based on monet
+- props: Opt-out battery monitoring in recovery
+- Imported dolby dax-default from stock 
+- Dropped KSU support 
+
+Notable ROM changes:
+==============================
+- Add back auto aod schedule
+- Add back auto dim schedule
+- Add back floating rotation toggle
+- Add back showing ambient instead of fully waking screen
+- Add back QS tile customization 
+- Add back QS panel styles
+- Add back QS tile styles (A11)
+- Add back volume steps
+- Fix Google battery widget
+- Fix SystemUI crashes
+- Fix volume slider haptic feedback toggle
 
 Device Changes:
 ==============================
