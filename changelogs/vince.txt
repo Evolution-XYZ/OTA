@@ -5,3 +5,7 @@ fixed scrolling
 fixed round corners (thanks Ankit Savkani)
 December security patches
 Device & Basic pass default
+
+----- 
+
+31/12 : Enhance smoothness by activating system props.
