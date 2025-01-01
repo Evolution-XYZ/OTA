@@ -1,23 +1,28 @@
-This is Android 15 with November 2024 (r5) security patches
+This is Android 15 with November 2024 (r6) security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r5-official-evolution-x-10-0-11-24-2024.4659931) for root.
-- Play Integrity passes, RCS works (As of 11/25/2024).
+- Play Integrity passes, RCS works (As of 1/1/2025).
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Add FEAS 2.2
-Update Baalam kernel to 5.10.230
-Update vendor security patches to V816.0.13.0.UMNMIXM
+Enable volume steps
+Change battery divider
 
 Notable ROM changes:
 ==============================
-GamesPropsUtils: Spoof as S24 Ultra for Diablo Immortal
-GamesPropsUtils: Update spoof for PUBG and Tencent Games
-Settings: Add option to cycle through ringer modes
-Settings: Add Pixel Launcher to allowlist for settings search
-SystemUIClocks: Drop SystemUIClocks-Weather
+Add back auto aod schedule
+Add back auto dim schedule
+Add back floating rotation toggle
+Add back showing ambient instead of fully waking screen
+Add back QS tile customization 
+Add back QS panel styles
+Add back QS tile styles (A11)
+Add back volume steps
+Fix Google battery widget
+Fix SystemUI crashes
+Fix volume slider haptic feedback toggle
