@@ -1,0 +1,13 @@
+===== 01 Jan 2025 =====
+
+NOTES:
+- Dirty install is fine from previous official build
+- Format Data could be required in other scenarios, check the XDA thread
+
+DEVICE:
+- Replace non-working MiUI camera with Aperture camera
+
+ROM:
+- Initial A15 release
+- EvolutionX 10.1
+- December security patch
