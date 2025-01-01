@@ -1,0 +1,14 @@
+===== 01 Jan 2025 =====
+
+NOTES:
+- Dirty install from previous official is fine
+- Compatible with locked bootloader
+- Builds are signed now
+
+DEVICE:
+
+ROM:
+- Initial A15 release
+- EvolutionX 10.1
+- December security patch
+- Play Integrity Fix from 2024/12/24
