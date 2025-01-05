@@ -13,30 +13,19 @@ Notes:
 
 Device changes:
 ==============================
-Fix SFPS location for 0a and 0b panel using display ID
-Make sure to enable 64bit fingerprint HAL
-Optimize native executables for Cortex-A510
-Optimize dex2oat for cortex-a76 on cortex-a510
-gps: Remove unused implementations
-gps: Fix unused parameter warnings in new cases
-gps: Enable unused parameter and format warnings
-gps: Make sure wearables supports in GPS is disabled
-gps: Remove race condition while mSupportNfwControl read
+enable Dolby Vision in hwcomposer
+Set ro.netflix.bsp_rev
+overlay: Configure sfps overlay
 
 Notable ROM changes:
 ==============================
-don't leak device-wide package list to apps when work profile is present
-PM: Force all packages as installed via Google Play Store
-Only spoof packages installed by Aurora Store and modify new API
-Set FakeStore/PlayStore as Aurora Store installer package name
-StringBlock: Prevent SystemUI crash when inflating QS
-OomAdjuster: B-service aging propagation on memory pressure
-Skip overriding fonts on some packages
-SystemUI: Implement burn-in protection for status/navbar
-SystemUI: Add dimens to set max offset of navigation bar burn-in protection
-config: Disable default frame rate limit for games
-config: Build BtHelper
-GameSpace: Replace get/setPendingIntentBackgroundActivityLaunchAllowedByPermission
-graphics composer: move to foreground
-interfaces: bluetooth: Restore LC3 codec support for A2DP
-ExternalCameraDevice: increase max bytes per pixel
+Bring back Lockscreen weather
+Bring back Quick tap
+Bring back QS data usage
+Bring back Status bar clock mods
+Bring back Status bar logos
+Bring back Colored status bar icons
+Bring back Status bar notif count
+Bring back Pulse visualization
+Bring back Lock/Unlock sounds
+Bring back boot animation styles
