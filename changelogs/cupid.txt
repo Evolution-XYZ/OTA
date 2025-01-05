@@ -6,24 +6,18 @@ To use this release you need:
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
 3. Flash rom
+4. Wipe Cache
 4. Reboot
-
-# Rom / Device
-
-  * sm8450-common: Update blobs from diting V816.0.9.0.ULFMIXM
-  * sm8450-common: Address missing libbinder symbols in libwfdnative
-  * sm8450-common: Patch libwfdservice to load android.media.audio.common.types>
-  * sm8450-common: rootdir: Kill WALT CPU boosting
-  * sm8450-common: Commonize fan53555 and stmvl53l5 modules
-  * sm8450-common: overlay: Enable several configs
-  * cupid: update blobs and firmware from cupid OS1.0.9.0.ULCMIXM
 
 Notable ROM changes:
 ==============================
-  * December Security Patch
-  * GamesPropsUtils: Spoof as S24 Ultra for Diablo Immortal
-  * GamesPropsUtils: Update spoof for PUBG and Tencent Games
-  * Settings: Add option to cycle through ringer modes
-  * Settings: Add Pixel Launcher to allowlist for settings search
-  * SystemUIClocks: Drop SystemUIClocks-Weather
-  * and more ...
+  * Bring back Lockscreen weather
+  * Bring back Quick tap
+  * Bring back QS data usage
+  * Bring back Status bar clock mods
+  * Bring back Status bar logos
+  * Bring back Colored status bar icons
+  * Bring back Status bar notif count
+  * Bring back Pulse visualization
+  * Bring back Lock/Unlock sounds
+  * Bring back boot animation styles
