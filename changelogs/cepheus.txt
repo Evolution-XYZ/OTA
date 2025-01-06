@@ -1,13 +1,23 @@
-===== 01 Jan 2025 =====
+===== 06 Jan 2025 =====
 
 NOTES:
 - Dirty install is fine from previous official build
 - Format Data could be required in other scenarios, check the XDA thread
 
 DEVICE:
-- Replace non-working MiUI camera with Aperture camera
+- Bring back the MIUI camera
+- Didable the parallel processing in the MIUI camera while it's crashing
 
 ROM:
-- Initial A15 release
-- EvolutionX 10.1
-- December security patch
+- Fix crashes when long-pressing A10 QS tiles
+- Add power save modes
+- Bring back Lockscreen weather
+- Bring back Quick tap
+- Bring back QS data usage
+- Bring back Status bar clock mods
+- Bring back Status bar logos
+- Bring back Colored status bar icons
+- Bring back Status bar notif count
+- Bring back Pulse visualization
+- Bring back Lock/Unlock sounds
+- Bring back boot animation styles
