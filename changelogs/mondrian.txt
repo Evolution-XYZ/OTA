@@ -5,24 +5,22 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r5-official-evolution-x-10-0-11-24-2024.4659931) for root.
-- Play Integrity passes, RCS works (As of 1/1/2025).
+- Play Integrity passes, RCS works (As of 1/7/2025).
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Enable volume steps
-Change battery divider
+None
 
 Notable ROM changes:
 ==============================
-Add back auto aod schedule
-Add back auto dim schedule
-Add back floating rotation toggle
-Add back showing ambient instead of fully waking screen
-Add back QS tile customization 
-Add back QS panel styles
-Add back QS tile styles (A11)
-Add back volume steps
-Fix Google battery widget
-Fix SystemUI crashes
-Fix volume slider haptic feedback toggle
+Bring back Lockscreen weather
+Bring back Quick tap
+Bring back QS data usage
+Bring back Status bar clock mods
+Bring back Status bar logos
+Bring back Colored status bar icons
+Bring back Status bar notif count
+Bring back Pulse visualization
+Bring back Lock/Unlock sounds
+Bring back boot animation styles
