@@ -1,4 +1,4 @@
-2024-12-26
+2025-01-09
 
 
 To use this release you need:
@@ -11,13 +11,31 @@ To use this release you need:
 
 Notable ROM changes:
 ==============================
-  * Bring back Lockscreen weather
-  * Bring back Quick tap
-  * Bring back QS data usage
-  * Bring back Status bar clock mods
-  * Bring back Status bar logos
-  * Bring back Colored status bar icons
-  * Bring back Status bar notif count
-  * Bring back Pulse visualization
-  * Bring back Lock/Unlock sounds
-  * Bring back boot animation styles
+Apply per-app volume to portid_volume_management
+BlackTheme: Turn colors_material bg colors to black
+FaceUnlock: Remove legacy icons
+Fix sim status details not updated after sim hotswap
+Evolver: Add brightness slider themes
+Extends "Camera: Skip stream size check for whitelisted apps"
+NavigationBarNoHint: Update hide gesture pill
+PixelPropsUtils: Spoof as Mainline
+Restore debug.sf.latch_unsignaled sysprop
+SF: Defer setDesiredActiveMode when display is off
+Settings: Add developer setting to set the default GPU renderer
+Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+Settings: Import androidx.room_room-runtime
+Settings: Move to lowercase of "Apps" in Cloned Apps title
+Settings: Remove IME space under keyboard feature
+Settings: Use List Preference for Dock speaker plays and Emergency tone
+Settings: Use List Preference for Zen mode settings
+Settings: buttons text should no longer be allCaps
+Settings: disable all bugreport settings
+Show GSM settings with CDMA phone type
+SystemUIGoogle: Fix ambient indication horizontal placement on A15 QPR1
+SystemUIGoogle: Update home button class
+audiopolicy: config: Add acp patch applied usb_audio_policy_configuration
+common: Label vendor.camera.remapid
+core: Adjust Pixel device checking
+nativedisplay: fix the flicker issue in streaming video
+sdk: Call Handler()'s correct constructor
+sdk: Use BluetoothManager.getAdapter()
