@@ -1,9 +1,8 @@
-* Merged December 2024 (Android 15 QPR1) Security Patch
-* Bring back most features/customisations from A14
-* Add circle to search 
-* Fixed IR Blaster (Remote)
-* Fixed side fingerprint icon position 
-* Add Battery Styles and Battery Percentage toggle
-* Add GameSpace, swipe to screenshot and many other day to day features back
-* More QS Tiles (Sound, dataswitch and else)
-* Many More (Features & Fixes that were missing on last Initial Android 15 Release)
+• Merged January 2025 Security Patch
+• Fixed issues with leica cam (crash after capture, 1.6MP issue and all other issues that were present in last release)
+• Ship New Leica Cam (Supports software tuned 4k 60fps and mimojis and other numerous features)
+• Fixed side fingerprint icon position for all users (which was still bugged for some users previously)
+• Ship Xiaomi Dolby Atmos
+• Fix display colors, yellowish tint and other dims
+• Add Google Messaging App
+• Bring back lockscreen weather clock style

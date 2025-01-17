@@ -1,7 +1,4 @@
-* Merged December 2024 (Android 15 QPR1) Security Patch
-* Bring back most features/customisations from A14
-* Add circle to search 
-* Add Battery Styles and Battery Percentage toggle
-* Add GameSpace, swipe to screenshot and many other day to day features back
-* More QS Tiles (Sound, dataswitch and else)
-* Many More (Features & Fixes that were missing on last Initial Android 15 Release)
+• Merged January 2025 Security Patch
+• Ship Xiaomi Dolby Atmos
+• Add Google Messaging App
+• Bring back lockscreen weather clock style
