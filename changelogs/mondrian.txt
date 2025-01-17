@@ -10,20 +10,9 @@ Notes:
 
 Device changes:
 ==============================
-Update Baalam kernel to 5.10.232
-Update stock camera to 5.1.001220
+Add support for Indian device (23013RK75I)
+Enable PowerOff-alarm
 
 Notable ROM changes:
 ==============================
-Evolver: Remove broken Pixel Launcher customization
-Merge January 2025 security patches
-Update BCR to Version 1.76
-Update SystemUI clocks from komodo 15.0.0 (AP4A.250105.002, Jan 2025)
-Update and bring back SystemUIClocks-Weather for QPR1
-Update gapps from January 2025 release
-core: Use $(PRODUCT_DEVICE) for auto generated RRO names
-init.rc: Disable native stats collection service
-init.rc: don't start console unless asked to
-init: reboot to recovery on panic by default to allow reading pstore
-pixel-style: Remove some unneeded overlays
-soong: increase heap size for metalava
+None
