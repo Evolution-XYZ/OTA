@@ -1,1 +1,29 @@
-Initial Android 15 release
+This is Android 15 QPR1 with January 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Play Integrity passes, RCS works (As of 01/19/2025).
+
+Notable ROM changes:
+==============================
+Always enable smart replies regardless of app target sdk/config
+Battery status chip: Fix battery size for landscape battery styles
+Evolver: Remove broken Pixel Launcher customization
+Merge January 2025 security patches
+PixelPropsUtils: Switch back to Pixel5a for non pixel devices
+PixelPropsUtils: Update fingerprints to January 2025 release
+ThemedResourceCache: Remove lambda and optimize map pruning iteration
+ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Update BCR to Version 1.76
+Update SystemUI clocks from komodo 15.0.0 (AP4A.250105.002, Jan 2025)
+Update and bring back SystemUIClocks-Weather for QPR1
+Update gapps from January 2025 release
+core: Use $(PRODUCT_DEVICE) for auto generated RRO names
+init.rc: Disable native stats collection service
+init.rc: don't start console unless asked to
+init: reboot to recovery on panic by default to allow reading pstore
+notify HWUI when scrolling
+pixel-style: Remove some unneeded overlays
+soong: increase heap size for metalava
