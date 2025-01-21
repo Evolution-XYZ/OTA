@@ -1,0 +1,19 @@
+This is Android 15 QPR1 with January 2025 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Play Integrity passes, RCS works (As of 1/2/2025).
+- Includes Xiaomi parts, Micamera and AGC-Camera.
+- Credits to Dereference, Underfrost, Onelots.
+
+Device changes:
+==============================
+- Switch to Paimon kernel for UI Freeze fixes
+- Added Support for Dirac Audio
+- Fixed MiCam crashes
+- Increased stability and UI smoothness
+
+Notable ROM changes:
+==============================
+Initial Android 15 QPR1 release

@@ -1,0 +1,26 @@
+{
+  "response": [
+    {
+      "maintainer": "Prathamk07",
+      "oem": "Xiaomi",
+      "device": "Redmi Note 11 Pro Plus 5G / Poco X4 Pro 5G",
+      "filename": "EvolutionX-15.0-20250119-veux-10.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/veux/15/EvolutionX-15.0-20250119-veux-10.2-Official.zip/download",
+      "timestamp": 1737312952,
+      "md5": "02534daff9df0c36fec7850730bd8f2a",
+      "sha256": "6bd667595e7a09841ca239b86bd2f2487acf78df9358bfbf8818335b7708e6a6",
+      "size": 2579008920,
+      "version": "10.2",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r6-official-evolution-x-10-2-21-01-2025.4714624/#post-89915787",
+      "firmware": "https://xmfirmwareupdater.com/firmware/veux/stable/OS1.0.3.0.TKCMIXM/",
+      "paypal": "https://paypal.me/PrathamKalra?country.x=IN&locale.x=en_GB",
+      "telegram": "https://t.me/Prathamk7",
+      "github": "Prathamk07",
+      "initial_installation_images": [
+        "boot",
+        "vendor_boot"       
+      ]
+    }
+  ]
+}
