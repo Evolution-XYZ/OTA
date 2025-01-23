@@ -9,3 +9,7 @@ Device & Basic pass default
 ----- 
 
 31/12 : Enhance smoothness by activating system props.
+
+------
+
+23/01 : Update to January sec patches
