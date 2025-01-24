@@ -2,13 +2,87 @@ Recovery: https://sourceforge.net/projects/evolution-x/files/beryllium/15/images
 KSU: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-20241228.zip/download
 KSU Next: https://sourceforge.net/projects/evolution-x/files/beryllium/15/Hayasaka-beryllium-4.9.337-ksu-next-20241228.zip/download
 
-
 This is Android 15 with December 2024 security patches
 Device changes:
 =======================
-Lower swappiness to 60
-Tuned lmkd parameters
+Bring back prebuilt Chrome
+Enable unspecialized app process pool
+Enable PowerOffAlarm
+Enable 2.4GHz channel bonding
+Stop pinning camera app in memory
+
 
 Rom changes:
 =======================
-Initial Android 15 release
+Added all missing customization
+January security patches
+
+BlackTheme: Make shades little more darker
+Don't update OverScroller fling state if improper time passed
+Fix pocket mode crashing and blocking buttons inputs
+PixelPropsUtils: Reset props for status bar lyric
+PixelPropsUtils: Update Google apps bypass support
+Pocket Mode: Cleanup and fixes
+Prevent systemui crash when resolving notif background
+Print original error in case of failure in uncaughtException
+Rework edge light feature
+Settings: WifiTetherClientLimitPreference: Fix compilation
+SettingsProvider: Fix NPE when upgrading
+Status bar lyrics: Fix bug where some lyric would be wrongly ignored
+SystemUI: Fix burn-in translations not applying to keyguard slices
+SystemUI: LyricViewController: Partially fix white-on-white issue
+SystemUI: NetworkTraffic: Partially fix white-on-white issue
+ThemeIcons: Update
+Update icon shapes from crdroid
+add workaround for SSM.newTargetUser() system_server crash
+add workaround for updateWifiBatteryStats() system_server crash
+edge light: Update paint stroke style
+fix NPE system_server crash in IMMS.resetDefaultImeLocked()
+fix an upstream race condition in handling of system error files
+Always enable smart replies regardless of app target sdk/config
+Battery status chip: Fix battery size for landscape battery styles
+Evolver: Remove broken Pixel Launcher customization
+Merge January 2025 security patches
+PixelPropsUtils: Switch back to Pixel5a for non pixel devices
+PixelPropsUtils: Update fingerprints to January 2025 release
+ThemedResourceCache: Remove lambda and optimize map pruning iteration
+ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Update BCR to Version 1.76
+Update SystemUI clocks from komodo 15.0.0 (AP4A.250105.002, Jan 2025)
+Update and bring back SystemUIClocks-Weather for QPR1
+Update gapps from January 2025 release
+core: Use $(PRODUCT_DEVICE) for auto generated RRO names
+init.rc: Disable native stats collection service
+init.rc: don't start console unless asked to
+init: reboot to recovery on panic by default to allow reading pstore
+notify HWUI when scrolling
+pixel-style: Remove some unneeded overlays
+soong: increase heap size for metalava
+Apply per-app volume to portid_volume_management
+BlackTheme: Turn colors_material bg colors to black
+FaceUnlock: Remove legacy icons
+Fix sim status details not updated after sim hotswap
+Evolver: Add brightness slider themes
+Extends "Camera: Skip stream size check for whitelisted apps"
+NavigationBarNoHint: Update hide gesture pill
+PixelPropsUtils: Spoof as Mainline
+Restore debug.sf.latch_unsignaled sysprop
+SF: Defer setDesiredActiveMode when display is off
+Settings: Add developer setting to set the default GPU renderer
+Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+Settings: Import androidx.room_room-runtime
+Settings: Move to lowercase of "Apps" in Cloned Apps title
+Settings: Remove IME space under keyboard feature
+Settings: Use List Preference for Dock speaker plays and Emergency tone
+Settings: Use List Preference for Zen mode settings
+Settings: buttons text should no longer be allCaps
+Settings: disable all bugreport settings
+Show GSM settings with CDMA phone type
+SystemUIGoogle: Fix ambient indication horizontal placement on A15 QPR1
+SystemUIGoogle: Update home button class
+audiopolicy: config: Add acp patch applied usb_audio_policy_configuration
+common: Label vendor.camera.remapid
+core: Adjust Pixel device checking
+nativedisplay: fix the flicker issue in streaming video
+sdk: Call Handler()'s correct constructor
+sdk: Use BluetoothManager.getAdapter()
