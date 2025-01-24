@@ -5,33 +5,43 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
-- Play Integrity passes, RCS works (As of 01/20/2025).
+- Play Integrity passes, RCS works (As of 01/25/2025).
+- Includes Leica camera.
 
 Device changes:
 ==============================
-libinit_variant: Fix misleading indentation warning
+Add back prebuilt camera blobs
+Bring back Leica camera
+Drop sysfs_msm_subsys rules
+Enable Smart Pixels feature
+Move persist.vendor.qti.telephony.vt_cam_interface to system_ext.prop
+Move some props to system_ext
+Use common libqti-perfd-client
+correct arch of nfc blob
+rootdir: Use stop instead of setprop for console
+sepolicy: allow vendor to write write to sched nodes
+sepolicy: dontaudit vendor_thermal-engine capability dac_override
+sepolicy: resolve GNSS denial
+sepolicy: resolve mutiple denials
 
 Notable ROM changes:
 ==============================
-BlackTheme: Make shades little more darker
-Don't update OverScroller fling state if improper time passed
-Fix pocket mode crashing and blocking buttons inputs
-PixelPropsUtils: Reset props for status bar lyric
-PixelPropsUtils: Update Google apps bypass support
-Pocket Mode: Cleanup and fixes
-Prevent systemui crash when resolving notif background
-Print original error in case of failure in uncaughtException
-Rework edge light feature
-Settings: WifiTetherClientLimitPreference: Fix compilation
-SettingsProvider: Fix NPE when upgrading
-Status bar lyrics: Fix bug where some lyric would be wrongly ignored
-SystemUI: Fix burn-in translations not applying to keyguard slices
-SystemUI: LyricViewController: Partially fix white-on-white issue
-SystemUI: NetworkTraffic: Partially fix white-on-white issue
-ThemeIcons: Update
-Update icon shapes from crdroid
-add workaround for SSM.newTargetUser() system_server crash
-add workaround for updateWifiBatteryStats() system_server crash
-edge light: Update paint stroke style
-fix NPE system_server crash in IMMS.resetDefaultImeLocked()
-fix an upstream race condition in handling of system error files
+Bluetooth: Add missing connect permission
+CarrierConfigManager: Enable inflate signal strength by default
+Edge light: Fix blink/pulse mode corner radius
+Evolver: Add animations to quick settings tiles
+Evolver: Add QS Header Image customization
+Evolver: Add support for UDFPS icons
+Evolver: Add switch for compact HUN
+Evolver: Allow to disable Pixel Launcher customization
+Evolver: Improve Pixel spoofing
+PIF: Update to latest beta values
+PixelPropsUtils: Improve Pixel spoofing
+Settings: Adaptive Playback: Enable dynamicColor on lottie
+Settings: Add vibration patterns from OOS
+Settings: Fix memory leak on wifi
+SystemUI: Constrain keyguard indication area burn-in offset
+SystemUIGoogle: Inject changes for Smart Pixels
+Update BCR to 1.76
+Update ViPER4Android FX Redesign to v7.1
+core: Introduce SystemRestartUtils
