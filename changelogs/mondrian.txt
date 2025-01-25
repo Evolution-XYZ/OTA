@@ -5,34 +5,13 @@ Notes:
 - LineageOS-based source. Signed build.
 - Make sure to be on HyperOS firmware first.
 - Install Baalam Kernel for KSU (https://xdaforums.com/t/rom-15-0_r10-official-evolution-x-10-2-01-24-2025.4659931/) for root.
-- Play Integrity passes, RCS works (As of 1/24/2025).
+- Play Integrity passes, RCS works (As of 1/25/2025).
 - Includes stock camera ported by NeoArian.
 
 Device changes:
 ==============================
-Improve UI rendering performance
+Hotfix for RIL components
 
 Notable ROM changes:
 ==============================
-BlackTheme: Make shades little more darker
-Don't update OverScroller fling state if improper time passed
-Fix pocket mode crashing and blocking buttons inputs
-PixelPropsUtils: Reset props for status bar lyric
-PixelPropsUtils: Update Google apps bypass support
-Pocket Mode: Cleanup and fixes
-Prevent systemui crash when resolving notif background
-Print original error in case of failure in uncaughtException
-Rework edge light feature
-Settings: WifiTetherClientLimitPreference: Fix compilation
-SettingsProvider: Fix NPE when upgrading
-Status bar lyrics: Fix bug where some lyric would be wrongly ignored
-SystemUI: Fix burn-in translations not applying to keyguard slices
-SystemUI: LyricViewController: Partially fix white-on-white issue
-SystemUI: NetworkTraffic: Partially fix white-on-white issue
-ThemeIcons: Update
-Update icon shapes from crdroid
-add workaround for SSM.newTargetUser() system_server crash
-add workaround for updateWifiBatteryStats() system_server crash
-edge light: Update paint stroke style
-fix NPE system_server crash in IMMS.resetDefaultImeLocked()
-fix an upstream race condition in handling of system error files
+None
