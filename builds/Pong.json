@@ -1,0 +1,26 @@
+{
+    "response": [
+      {
+        "maintainer": "hiroshi. (Superuser)",
+        "oem": "Nothing",
+        "device": "Phone (2)",
+        "filename": "EvolutionX-15.0-20250126-Pong-10.2-Official.zip",
+        "download": "https://sourceforge.net/projects/evolution-x/files/Pong/15/EvolutionX-15.0-20250126-Pong-10.2-Official.zip/download",
+        "timestamp": 1737910226,
+        "md5": "57ed3ea7670666bec7ec06b424e141a1",
+        "sha256": "f54033141a6b11546baf4a0546e304a0ebcf58119630e935de966e4335abfdfc",
+        "size": 2784803901,
+        "version": "10.2",
+        "buildtype": "Release",
+        "forum": "https://xdaforums.com/t/rom-15-0-0_r10-official-evolution-x-10-2-26-01-2025.4715463/",
+        "firmware": "",
+        "paypal": "https://paypal.me/zerotohiro",
+        "telegram": "https://t.me/superuser1958",
+        "github": "joshuah345",
+        "initial_installation_images": [
+            "boot",
+            "recovery"
+        ]
+      }
+    ]
+  }

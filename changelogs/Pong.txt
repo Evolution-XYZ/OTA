@@ -1,0 +1,10 @@
+Notes
+========
+- Initial Official A15 Buiid
+- Dolby included
+- Firmware is included
+
+
+ROM Changes
+=============
+- Fix Google Photos Spoof toggle
