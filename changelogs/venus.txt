@@ -1,16 +1,112 @@
-This is Android 15 QPR1 with December 2024 security patches
+This is Android 15 QPR1 with January 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 1/2/2025).
+- Play Integrity passes, RCS works (As of 01/27/2025).
 - Includes Xiaomi parts, Dolby and Leica camera.
-- Credits to Arian16k, FlowerSea, GR, RobertGarciaa.
+- Credits to Arian16k, FlowerSea, GR, RobertGarciaa, ralph20060412.
 
 Device changes:
 ==============================
-Use sm8350-common tree by RobertGarciaa
+Build DSPVolumeSynchronizer
+Use prebuilt kernel (https://github.com/AOSP-for-venus/platform_device_xiaomi_venus-kernel)
 
 Notable ROM changes:
 ==============================
-Initial Android 15 QPR1 release
+Apply per-app volume to portid_volume_management
+BlackTheme: Make shades little more darker
+BlackTheme: Turn colors_material bg colors to black
+Bluetooth: Add missing connect permission
+CarrierConfigManager: Enable inflate signal strength by default
+Don't update OverScroller fling state if improper time passed
+Edge light: Fix blink/pulse mode corner radius
+Evolver: Add QS Header Image customization
+Evolver: Add animations to quick settings tiles
+Evolver: Add brightness slider themes
+Evolver: Add support for UDFPS icons
+Evolver: Add switch for compact HUN
+Evolver: Allow to disable Pixel Launcher customization
+Evolver: Improve Pixel spoofing
+Evolver: Remove broken Pixel Launcher customization
+Extends "Camera: Skip stream size check for whitelisted apps"
+ExternalCameraDevice: increase max bytes per pixel
+FaceUnlock: Remove legacy icons
+Fix pocket mode crashing and blocking buttons inputs
+Fix sim status details not updated after sim hotswap
+GameSpace: Replace get/setPendingIntentBackgroundActivityLaunchAllowedByPermission
+Merge January 2025 security patches
+NavigationBarNoHint: Update hide gesture pill
+Only spoof packages installed by Aurora Store and modify new API
+OomAdjuster: B-service aging propagation on memory pressure
+PIF: Update to latest beta values
+PM: Force all packages as installed via Google Play Store
+PixelPropsUtils: Improve Pixel spoofing
+PixelPropsUtils: Reset props for status bar lyric
+PixelPropsUtils: Spoof as Mainline
+PixelPropsUtils: Update Google apps bypass support
+Pocket Mode: Cleanup and fixes
+Prevent systemui crash when resolving notif background
+Print original error in case of failure in uncaughtException
+Restore debug.sf.latch_unsignaled sysprop
+Rework edge light feature
+SF: Defer setDesiredActiveMode when display is off
+Set FakeStore/PlayStore as Aurora Store installer package name
+Settings: Adaptive Playback: Enable dynamicColor on lottie
+Settings: Add developer setting to set the default GPU renderer
+Settings: Add vibration patterns from OOS
+Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+Settings: Fix memory leak on wifi
+Settings: Import androidx.room_room-runtime
+Settings: Move to lowercase of "Apps" in Cloned Apps title
+Settings: Remove IME space under keyboard feature
+Settings: Use List Preference for Dock speaker plays and Emergency tone
+Settings: Use List Preference for Zen mode settings
+Settings: WifiTetherClientLimitPreference: Fix compilation
+Settings: buttons text should no longer be allCaps
+Settings: disable all bugreport settings
+SettingsProvider: Fix NPE when upgrading
+Show GSM settings with CDMA phone type
+Skip overriding fonts on some packages
+Status bar lyrics: Fix bug where some lyric would be wrongly ignored
+StringBlock: Prevent SystemUI crash when inflating QS
+SystemUI: Add dimens to set max offset of navigation bar burn-in protection
+SystemUI: Constrain keyguard indication area burn-in offset
+SystemUI: Fix burn-in translations not applying to keyguard slices
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: LyricViewController: Partially fix white-on-white issue
+SystemUI: NetworkTraffic: Partially fix white-on-white issue
+SystemUIGoogle: Fix ambient indication horizontal placement on A15 QPR1
+SystemUIGoogle: Inject changes for Smart Pixels
+SystemUIGoogle: Update home button class
+ThemeIcons: Update
+Update BCR to 1.76
+Update BCR to Version 1.76
+Update SystemUI clocks from komodo 15.0.0 (AP4A.250105.002, Jan 2025)
+Update ViPER4Android FX Redesign to v7.1
+Update and bring back SystemUIClocks-Weather for QPR1
+Update gapps from January 2025 release
+Update icon shapes from crdroid
+add workaround for SSM.newTargetUser() system_server crash
+add workaround for updateWifiBatteryStats() system_server crash
+audiopolicy: config: Add acp patch applied usb_audio_policy_configuration
+common: Label vendor.camera.remapid
+config: Build BtHelper
+config: Disable default frame rate limit for games
+core: Adjust Pixel device checking
+core: Introduce SystemRestartUtils
+core: Use $(PRODUCT_DEVICE) for auto generated RRO names
+don't leak device-wide package list to apps when work profile is present
+edge light: Update paint stroke style
+fix NPE system_server crash in IMMS.resetDefaultImeLocked()
+fix an upstream race condition in handling of system error files
+graphics composer: move to foreground
+init.rc: Disable native stats collection service
+init.rc: don't start console unless asked to
+init: reboot to recovery on panic by default to allow reading pstore
+interfaces: bluetooth: Restore LC3 codec support for A2DP
+nativedisplay: fix the flicker issue in streaming video
+pixel-style: Remove some unneeded overlays
+sdk: Call Handler()'s correct constructor
+sdk: Use BluetoothManager.getAdapter()
+soong: increase heap size for metalava
