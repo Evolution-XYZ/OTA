@@ -13,6 +13,7 @@ on:
 
 jobs:
   process-json-files:
+    if: github.repository == 'Evolution-X/OTA'
     runs-on: ubuntu-latest
 
     steps:
