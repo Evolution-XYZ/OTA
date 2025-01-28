@@ -1,0 +1,9 @@
+This is Android 15 with January 2025 security patches
+
+Rom changes:
+=======================
+Initial Android 15 release
+fixed settings layout being messed up
+added all customizations from 9.x and more
+Now playing working
+C2S and gemini working
