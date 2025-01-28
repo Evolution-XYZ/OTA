@@ -1,3 +1,5 @@
-Intitial A15 release
-November security patch
+January security patch
+Bump to version 10.2
 Clean flash not required but recommended
+Enhanced Evovler Options
+Some under the hood improvements 
