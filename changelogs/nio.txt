@@ -1,5 +1,5 @@
 January security patch
 Bump to version 10.2
 Clean flash not required but recommended
-Enhanced Evovler Options
+Enhanced Evolver Options 
 Some under the hood improvements 
