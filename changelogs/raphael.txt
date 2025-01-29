@@ -5,43 +5,38 @@ Notes:
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Kernel is already pre-rooted with KSU Next. Just install the KSU Next app.
-- Play Integrity passes, RCS works (As of 01/25/2025).
+- Play Integrity passes, RCS works (As of 01/30/2025).
 - Includes Leica camera.
 
 Device changes:
 ==============================
-Add back prebuilt camera blobs
-Bring back Leica camera
-Drop sysfs_msm_subsys rules
-Enable Smart Pixels feature
-Move persist.vendor.qti.telephony.vt_cam_interface to system_ext.prop
-Move some props to system_ext
-Use common libqti-perfd-client
-correct arch of nfc blob
-rootdir: Use stop instead of setprop for console
-sepolicy: allow vendor to write write to sched nodes
-sepolicy: dontaudit vendor_thermal-engine capability dac_override
-sepolicy: resolve GNSS denial
-sepolicy: resolve mutiple denials
+Build DSPVolumeSynchronizer
+Migrate mount point creation out of Android.mk
+audio: remove direct flag for VOIP RX
+overlay: Disable 5G toggle
+overlay: Remove nr availability from carrier config
 
 Notable ROM changes:
 ==============================
-Bluetooth: Add missing connect permission
-CarrierConfigManager: Enable inflate signal strength by default
-Edge light: Fix blink/pulse mode corner radius
-Evolver: Add animations to quick settings tiles
-Evolver: Add QS Header Image customization
-Evolver: Add support for UDFPS icons
-Evolver: Add switch for compact HUN
-Evolver: Allow to disable Pixel Launcher customization
-Evolver: Improve Pixel spoofing
-PIF: Update to latest beta values
-PixelPropsUtils: Improve Pixel spoofing
-Settings: Adaptive Playback: Enable dynamicColor on lottie
-Settings: Add vibration patterns from OOS
-Settings: Fix memory leak on wifi
-SystemUI: Constrain keyguard indication area burn-in offset
-SystemUIGoogle: Inject changes for Smart Pixels
-Update BCR to 1.76
-Update ViPER4Android FX Redesign to v7.1
-core: Introduce SystemRestartUtils
+Drop custom adb drawable
+Evolver: Hide 3 button nav customization when using gesture nav
+Evolver: Move to JSON PIF implementation
+LineageParts: Fix overlapping interval seekbar texts in RTL
+LineageParts: Support breath LED mode
+PixelPropsUtils: Improve spoofing
+Settings: Do not hide Now Playing for Pixel devices
+Settings: Fixup fingerprint enroll finish layout
+Settings: Improve udfps enroll introduction layout
+Settings: Retain udfps overlay shown state on restoring activity
+Settings: Set key order on addition (fixes random re-ordering)
+Settings: Use default letter spacing for category titles
+Settings: Use internal display brightness in overlay displays
+SystemUI: Allow long pressing timer chips to directly stop the action
+SystemUI: Fixup cast chip long press when not showing a timer
+apns-conf: Update Imobile config
+apns: Add WE EG
+config: properties: Add pihooks default values
+fix vtservice cpu hogging
+iconshapes: Set config_bottomDialogCornerRadius to 16dp
+overlay: Set AOSP webview as fallback
+sepolicy: Allow gmscore_app to set system_prop

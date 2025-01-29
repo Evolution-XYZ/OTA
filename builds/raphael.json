@@ -4,12 +4,12 @@
       "maintainer": "Joey Huab",
       "oem": "Xiaomi",
       "device": "Mi 9T Pro / Redmi K20 Pro",
-      "filename": "EvolutionX-15.0-20250124-raphael-10.2-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/raphael/15/EvolutionX-15.0-20250124-raphael-10.2-Official.zip/download",
-      "timestamp": 1737746704,
-      "md5": "06b945f3ec9995ea0c0394b652d2521e",
-      "sha256": "af3e0c11a458c7ed89744d59c5a0fff146e502913c99368f2b0b40c02c5537ba",
-      "size": 3092500256,
+      "filename": "EvolutionX-15.0-20250130-raphael-10.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/raphael/15/EvolutionX-15.0-20250130-raphael-10.2-Official.zip/download",
+      "timestamp": 1738203461,
+      "md5": "c9f50dd587866df37351da53c162151e",
+      "sha256": "ed86174531ab374e0ccc0b5856b2b820f0478cd8a94dfb0f27b5191991f5c0b1",
+      "size": 3092506036,
       "version": "10.2",
       "buildtype": "Release",
       "forum": "https://xdaforums.com/t/rom-15-0-qpr1-raphael-official-evolution-x-12-27-24.4710167/",
@@ -24,4 +24,3 @@
     }
   ]
 }
-
