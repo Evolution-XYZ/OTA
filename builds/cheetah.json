@@ -4,15 +4,15 @@
       "maintainer": "Anierin Bliss",
       "oem": "Google",
       "device": "Pixel 7 Pro",
-      "filename": "EvolutionX-15.0-20241123-cheetah-10.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/cheetah/15/EvolutionX-15.0-20241123-cheetah-10.0-Official.zip/download",
-      "timestamp": 1732324118,
-      "md5": "359e1438f3071b84534f099b98d5fdf3",
-      "sha256": "595bbff60db293e790eca2cb485aa5ff811bd4a562b5c49eb712f669ae5aa5f7",
-      "size": 2516981142,
-      "version": "10.0",
+      "filename": "EvolutionX-15.0-20250129-cheetah-10.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cheetah/15/EvolutionX-15.0-20250129-cheetah-10.2-Official.zip/download",
+      "timestamp": 1738128155,
+      "md5": "4e0f3d32bb03de136bcbd0695043a59f",
+      "sha256": "3db9a525885e7b9e5192125cc4d9d82f75c0d5ff2b5f9aa182eb6b00035f32f5",
+      "size": 2803468628,
+      "version": "10.2",
       "buildtype": "Release",
-      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-22-24.4546503/",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r10-official-evolution-x-10-2-01-29-25.4546503/",
       "firmware": "",
       "paypal": "https://PayPal.me/AnierinB",
       "telegram": "https://telegram.me/AnierinB",
@@ -23,7 +23,6 @@
         "vendor_kernel_boot",
         "vendor_boot"
       ]
-
     }
   ]
 }
