@@ -4,15 +4,15 @@
       "maintainer": "Anierin Bliss",
       "oem": "Google",
       "device": "Pixel 7",
-      "filename": "EvolutionX-15.0-20241122-panther-10.0-Official.zip",
-      "download": "https://sourceforge.net/projects/evolution-x/files/panther/15/EvolutionX-15.0-20241122-panther-10.0-Official.zip/download",
-      "timestamp": 1732315539,
-      "md5": "cfe16342c31f867e8671e6c6a618ad60",
-      "sha256": "18455c7e137244628502538b0128219aedd014ce712a1b21a93c5a5f27572b81",
-      "size": 2511327615,
-      "version": "10.0",
+      "filename": "EvolutionX-15.0-20250129-panther-10.2-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/panther/15/EvolutionX-15.0-20250129-panther-10.2-Official.zip/download",
+      "timestamp": 1738169246,
+      "md5": "dc13553080e6a8ac947db40dc7ce0f2f",
+      "sha256": "0f3868808cdaac6b801dcb4e9508419ff7f3df5bd0e1795653b2ea2497716a27",
+      "size": 2797075016,
+      "version": "10.2",
       "buildtype": "Release",
-      "forum": "https://xdaforums.com/t/rom-15-0-0_r5-official-evolution-x-10-0-11-22-24.4546503/",
+      "forum": "https://xdaforums.com/t/rom-15-0-0_r10-official-evolution-x-10-2-01-29-25.4546503/",
       "firmware": "",
       "paypal": "https://PayPal.me/AnierinB",
       "telegram": "https://telegram.me/AnierinB",
@@ -23,7 +23,6 @@
         "vendor_kernel_boot",
         "vendor_boot"
       ]
-
     }
   ]
 }
