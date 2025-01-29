@@ -1,4 +1,4 @@
-2025-01-09
+2024-01-29
 
 
 To use this release you need:
@@ -6,36 +6,65 @@ To use this release you need:
 1. Download the proper flashable ZIP for your device
 2. Reboot to Recovery
 3. Flash rom
-4. Wipe Cache
 4. Reboot
+
+# Rom / Device
+
+  * sm8450-common: Build and configure xiaomi touch hal
+  * sm8450-common: Migrate mount point creation out of Android.mk
+  * sm8450-common: Update display, GPS and QCC blobs from ingot UKQ1.240227.165
+  * sm8450-common: gps: Convert remaining Android.mk to bp
+  * sm8450-common: gps: Remove unused implementations
+  * sm8450-common: overlay: Update wifi overlay comments from AOSP
+  * sm8450-common: overlay: Remove backup calling strings
+  * sm8450-common: overlay: Drop TelecommResCommon which only sets default valu>
+  * sm8450-common: Update blobs from diting V816.0.10.0.ULFMIXM
+  * sm8450-common: Add second wl2866d regulator module to load list
+  * sm8450-common: Load fpc1540 module
+  * sm8450-common: Disable OMX service
+  * sm8450-common: sepolicy: Remove /sys/class/qcom-battery label
+
+# Kernel
+  * input: touchscreen: xiaomi: Commonize touch mode get/set between ioctl and sysfs nodes
+  * WIP input: touchscreen: fts_spi: Implement high touch polling rate support
+  * input: touchscreen: synaptics_s3907: Implement high touch polling rate support
+  * input: touchscreen: goodix_berlin_driver: Implement high touch polling rate support
+  * input: touchscreen: xiaomi: Add sysfs node for report rate
+  * input: touchscreen: goodix_berlin_driver: Get rid of enable/disable_irq_wake
+  * input: touchscreen: xiaomi: Initialize suspended and fod_finger_state variables
+  * input: touchscreen: xiaomi: Keep gestures enabled in nonui mode
+  * input: touchscreen: goodix_berlin_driver: Check reset result in gesture work
+  * input: touchscreen: goodix_berlin_driver: Return proper errors when entering gesture mode
+  * fixup! input: touchscreen: xiaomi: Take over nonui mode handling
+  * input: touchscreen: xiaomi: Transfer gesture state on fold events
+  * ARM64: configs: xiaomi: Commonize wl2866d regulator module
+  * misc: Rename ldo wl2866d driver
+and more
 
 Notable ROM changes:
 ==============================
-Apply per-app volume to portid_volume_management
-BlackTheme: Turn colors_material bg colors to black
-FaceUnlock: Remove legacy icons
-Fix sim status details not updated after sim hotswap
-Evolver: Add brightness slider themes
-Extends "Camera: Skip stream size check for whitelisted apps"
-NavigationBarNoHint: Update hide gesture pill
-PixelPropsUtils: Spoof as Mainline
-Restore debug.sf.latch_unsignaled sysprop
-SF: Defer setDesiredActiveMode when display is off
-Settings: Add developer setting to set the default GPU renderer
-Settings: Bluetooth: Don't check persistable uri permission for BtHelper
-Settings: Import androidx.room_room-runtime
-Settings: Move to lowercase of "Apps" in Cloned Apps title
-Settings: Remove IME space under keyboard feature
-Settings: Use List Preference for Dock speaker plays and Emergency tone
-Settings: Use List Preference for Zen mode settings
-Settings: buttons text should no longer be allCaps
-Settings: disable all bugreport settings
-Show GSM settings with CDMA phone type
-SystemUIGoogle: Fix ambient indication horizontal placement on A15 QPR1
-SystemUIGoogle: Update home button class
-audiopolicy: config: Add acp patch applied usb_audio_policy_configuration
-common: Label vendor.camera.remapid
-core: Adjust Pixel device checking
-nativedisplay: fix the flicker issue in streaming video
-sdk: Call Handler()'s correct constructor
-sdk: Use BluetoothManager.getAdapter()
+  * Evolver: Move to JSON PIF implementation
+  * LineageParts: Fix overlapping interval seekbar texts in RTL
+  * LineageParts: Support breath LED mode
+  * PixelPropsUtils: Improve spoofing
+  * Settings: Adaptive Playback: Enable dynamicColor on lottie
+  * Settings: Add vibration patterns from OOS
+  * Settings: Do not hide Now Playing for Pixel devices
+  * Settings: Fixup fingerprint enroll finish layout
+  * Settings: Improve udfps enroll introduction layout
+  * Settings: Retain udfps overlay shown state on restoring activity
+  * Settings: Set key order on addition (fixes random re-ordering)
+  * Settings: Use default letter spacing for category titles
+  * Settings: Use internal display brightness in overlay displays
+  * SystemUI: Allow long pressing timer chips to directly stop the action
+  * SystemUI: Fixup cast chip long press when not showing a timer
+  * SystemUIGoogle: Inject changes for Smart Pixels
+  * apns-conf: Update Imobile config
+  * apns: Add WE EG
+  * config: properties: Add pihooks default values
+  * core: Introduce SystemRestartUtils
+  * fix vtservice cpu hogging
+  * iconshapes: Set config_bottomDialogCornerRadius to 16dp
+  * overlay: Set AOSP webview as fallback
+  * sepolicy: Allow gmscore_app to set system_prop
+  * and more ...
