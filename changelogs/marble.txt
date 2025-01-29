@@ -7,41 +7,44 @@ Notes:
 - Use latest TWRP or OFRP-R11.1_6-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Install LosKsu10.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/15/LosKsu10.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 1/20/2025).
+- Play Integrity passes, RCS works (As of 01/30/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Migrate mount point creation out of Android.mk
-Update blobs from diting V816.0.10.0.ULFMIXM
-Update display, GPS and QCC blobs from ingot UKQ1.240227.165
-configs: audio: Fix mic issues in apps like WhatsApp
-overlay: Drop TelecommResCommon which only sets default values
-overlay: Remove backup calling strings
-overlay: Update wifi overlay comments from AOSP
+Add missing odm props
+Use fingerprint from POCO F5 odm build.prop
+audio: Remove direct flag for VOIP RX (fix losing voice call audio when watching other videos)
 
 Notable ROM changes:
 ==============================
-BlackTheme: Make shades little more darker
-Don't update OverScroller fling state if improper time passed
-Fix pocket mode crashing and blocking buttons inputs
-PixelPropsUtils: Reset props for status bar lyric
-PixelPropsUtils: Update Google apps bypass support
-Pocket Mode: Cleanup and fixes
-Prevent systemui crash when resolving notif background
-Print original error in case of failure in uncaughtException
-Rework edge light feature
-Settings: WifiTetherClientLimitPreference: Fix compilation
-SettingsProvider: Fix NPE when upgrading
-Status bar lyrics: Fix bug where some lyric would be wrongly ignored
-SystemUI: Fix burn-in translations not applying to keyguard slices
-SystemUI: LyricViewController: Partially fix white-on-white issue
-SystemUI: NetworkTraffic: Partially fix white-on-white issue
-ThemeIcons: Update
-Update icon shapes from crdroid
-add workaround for SSM.newTargetUser() system_server crash
-add workaround for updateWifiBatteryStats() system_server crash
-edge light: Update paint stroke style
-fix NPE system_server crash in IMMS.resetDefaultImeLocked()
-fix an upstream race condition in handling of system error files
+CarrierConfigManager: Enable inflate signal strength by default
+Drop custom adb drawable
+Edge light: Fix blink/pulse mode corner radius
+Evolver: Add switch for compact HUN
+Evolver: Hide 3 button nav customization when using gesture nav
+Evolver: Move to JSON PIF implementation
+LineageParts: Fix overlapping interval seekbar texts in RTL
+LineageParts: Support breath LED mode
+PixelPropsUtils: Improve spoofing
+Settings: Adaptive Playback: Enable dynamicColor on lottie
+Settings: Add vibration patterns from OOS
+Settings: Do not hide Now Playing for Pixel devices
+Settings: Fixup fingerprint enroll finish layout
+Settings: Improve udfps enroll introduction layout
+Settings: Retain udfps overlay shown state on restoring activity
+Settings: Set key order on addition (fixes random re-ordering)
+Settings: Use default letter spacing for category titles
+Settings: Use internal display brightness in overlay displays
+SystemUI: Allow long pressing timer chips to directly stop the action
+SystemUI: Fixup cast chip long press when not showing a timer
+SystemUIGoogle: Inject changes for Smart Pixels
+apns-conf: Update Imobile config
+apns: Add WE EG
+config: properties: Add pihooks default values
+core: Introduce SystemRestartUtils
+fix vtservice cpu hogging
+iconshapes: Set config_bottomDialogCornerRadius to 16dp
+overlay: Set AOSP webview as fallback
+sepolicy: Allow gmscore_app to set system_prop
