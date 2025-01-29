@@ -1,10 +1,21 @@
 Notes
 ========
-- Initial Official A15 Buiid
-- Dolby included
+- Dolby is included
 - Firmware is included
 
 
-ROM Changes
+Changelog
 =============
+
+27/01/2025
+---------------
 - Fix Google Photos Spoof toggle
+
+
+29/01/2025
+---------------
+- Add DeviceExtras
+- Switch to meteoric kernel
+- fix glyph interface failing to work randomly
+- enable adjusting volume steps
+- [ROM] Implement JSON style Play Integrity Fix
