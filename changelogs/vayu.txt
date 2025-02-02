@@ -1,8 +1,31 @@
-• Merged January 2025 Security Patch
-• Fixed issues with leica cam (crash after capture, 1.6MP issue and all other issues that were present in last release)
-• Ship New Leica Cam (Supports software tuned 4k 60fps and mimojis and other numerous features)
-• Fixed side fingerprint icon position for all users (which was still bugged for some users previously)
-• Ship Xiaomi Dolby Atmos
-• Fix display colors, yellowish tint and other dims
-• Add Google Messaging App
-• Bring back lockscreen weather clock style
+Notable ROM changes:
+==============================
+CarrierConfigManager: Enable inflate signal strength by default
+Drop custom adb drawable
+Edge light: Fix blink/pulse mode corner radius
+Evolver: Add switch for compact HUN
+Evolver: Hide 3 button nav customization when using gesture nav
+Evolver: Move to JSON PIF implementation
+LineageParts: Fix overlapping interval seekbar texts in RTL
+LineageParts: Support breath LED mode
+PixelPropsUtils: Improve spoofing
+Settings: Adaptive Playback: Enable dynamicColor on lottie
+Settings: Add vibration patterns from OOS
+Settings: Do not hide Now Playing for Pixel devices
+Settings: Fixup fingerprint enroll finish layout
+Settings: Improve udfps enroll introduction layout
+Settings: Retain udfps overlay shown state on restoring activity
+Settings: Set key order on addition (fixes random re-ordering)
+Settings: Use default letter spacing for category titles
+Settings: Use internal display brightness in overlay displays
+SystemUI: Allow long pressing timer chips to directly stop the action
+SystemUI: Fixup cast chip long press when not showing a timer
+SystemUIGoogle: Inject changes for Smart Pixels
+apns-conf: Update Imobile config
+apns: Add WE EG
+config: properties: Add pihooks default values
+core: Introduce SystemRestartUtils
+fix vtservice cpu hogging
+iconshapes: Set config_bottomDialogCornerRadius to 16dp
+overlay: Set AOSP webview as fallback
+sepolicy: Allow gmscore_app to set system_prop
