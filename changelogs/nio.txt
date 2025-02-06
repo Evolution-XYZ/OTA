@@ -1,4 +1,4 @@
 Feburary security patch
 Bump to version 10.3
-Clean flash not required but recommended
+Clean flash not required to update
 Enhanced Evolver Options expanded 
