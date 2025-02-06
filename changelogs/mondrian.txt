@@ -42,4 +42,4 @@ properties: Set default game props
 themes: Expose values for theming settings
 themes: Import notification, progress bar and power menu themes
 vendor: Overlay PermissionController to use headline font from framework resource
-version: Uprev to 10.2.1
+version: Uprev to 10.3
