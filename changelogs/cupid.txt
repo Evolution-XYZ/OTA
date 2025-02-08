@@ -1,4 +1,4 @@
-2024-01-29
+2024-02-07
 
 
 To use this release you need:
@@ -8,63 +8,35 @@ To use this release you need:
 3. Flash rom
 4. Reboot
 
-# Rom / Device
-
-  * sm8450-common: Build and configure xiaomi touch hal
-  * sm8450-common: Migrate mount point creation out of Android.mk
-  * sm8450-common: Update display, GPS and QCC blobs from ingot UKQ1.240227.165
-  * sm8450-common: gps: Convert remaining Android.mk to bp
-  * sm8450-common: gps: Remove unused implementations
-  * sm8450-common: overlay: Update wifi overlay comments from AOSP
-  * sm8450-common: overlay: Remove backup calling strings
-  * sm8450-common: overlay: Drop TelecommResCommon which only sets default valu>
-  * sm8450-common: Update blobs from diting V816.0.10.0.ULFMIXM
-  * sm8450-common: Add second wl2866d regulator module to load list
-  * sm8450-common: Load fpc1540 module
-  * sm8450-common: Disable OMX service
-  * sm8450-common: sepolicy: Remove /sys/class/qcom-battery label
-
-# Kernel
-  * input: touchscreen: xiaomi: Commonize touch mode get/set between ioctl and sysfs nodes
-  * WIP input: touchscreen: fts_spi: Implement high touch polling rate support
-  * input: touchscreen: synaptics_s3907: Implement high touch polling rate support
-  * input: touchscreen: goodix_berlin_driver: Implement high touch polling rate support
-  * input: touchscreen: xiaomi: Add sysfs node for report rate
-  * input: touchscreen: goodix_berlin_driver: Get rid of enable/disable_irq_wake
-  * input: touchscreen: xiaomi: Initialize suspended and fod_finger_state variables
-  * input: touchscreen: xiaomi: Keep gestures enabled in nonui mode
-  * input: touchscreen: goodix_berlin_driver: Check reset result in gesture work
-  * input: touchscreen: goodix_berlin_driver: Return proper errors when entering gesture mode
-  * fixup! input: touchscreen: xiaomi: Take over nonui mode handling
-  * input: touchscreen: xiaomi: Transfer gesture state on fold events
-  * ARM64: configs: xiaomi: Commonize wl2866d regulator module
-  * misc: Rename ldo wl2866d driver
-and more
 
 Notable ROM changes:
 ==============================
-  * Evolver: Move to JSON PIF implementation
-  * LineageParts: Fix overlapping interval seekbar texts in RTL
-  * LineageParts: Support breath LED mode
-  * PixelPropsUtils: Improve spoofing
-  * Settings: Adaptive Playback: Enable dynamicColor on lottie
-  * Settings: Add vibration patterns from OOS
-  * Settings: Do not hide Now Playing for Pixel devices
-  * Settings: Fixup fingerprint enroll finish layout
-  * Settings: Improve udfps enroll introduction layout
-  * Settings: Retain udfps overlay shown state on restoring activity
-  * Settings: Set key order on addition (fixes random re-ordering)
-  * Settings: Use default letter spacing for category titles
-  * Settings: Use internal display brightness in overlay displays
-  * SystemUI: Allow long pressing timer chips to directly stop the action
-  * SystemUI: Fixup cast chip long press when not showing a timer
-  * SystemUIGoogle: Inject changes for Smart Pixels
-  * apns-conf: Update Imobile config
-  * apns: Add WE EG
-  * config: properties: Add pihooks default values
-  * core: Introduce SystemRestartUtils
-  * fix vtservice cpu hogging
-  * iconshapes: Set config_bottomDialogCornerRadius to 16dp
-  * overlay: Set AOSP webview as fallback
-  * sepolicy: Allow gmscore_app to set system_prop
+BlackTheme: Make more container surfaces black
+Disable Game default frame rate feature
+Evolver: Bring in features from rising
+Evolver: Fix quick pull down rtl values
+Evolver: Implement Better QS (optional toggle)
+Evolver: Introduce Volume Styles
+Evolver: OverlaySwitchPreference: Update
+Evolver: Show restart SystemUI dialog for some toggles
+GameSpace: Integrate LMOFreeform to quick start apps
+Merge February 2025 security patches
+OmniStyle: Add more QS Header image packs
+Settings: Add system haptics intensity settings
+SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
+Update translations
+aconfig: Disable FRP enforcement
+apps: Include prebuilt Accord music player
+check_boot_jars: Whitelist LMOFreeform
+config: Build LMO Freeform app and sidebar
+config: Disable RescueParty
+config: Remove useless addon.d file
+overlay: device_config: Add values required for Speech Recognition
+overlay: device_config: Escape special characters
+overlay: device_config: Updates
+properties: Set default game props
+themes: Expose values for theming settings
+themes: Import notification, progress bar and power menu themes
+vendor: Overlay PermissionController to use headline font from framework resource
+version: Uprev to 10.3
   * and more ...
