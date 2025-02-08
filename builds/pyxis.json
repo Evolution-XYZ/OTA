@@ -11,7 +11,7 @@
       "sha256": "b3ed9a60a2f43e0acb2da190afce693b437881059985e2b3305708b0dab6407d",
       "size": 2275449275,
       "version": "10.3",
-      "buildtype": "Release",
+      "buildtype": "userdebug",
       "forum": "",
       "firmware": "https://xiaomifirmwareupdater.com/firmware/pyxis/stable/V12.5.3.0.RFCEUXM/",
       "paypal": "https://www.paypal.me/czarsuperstar",

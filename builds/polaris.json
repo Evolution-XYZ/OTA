@@ -1,25 +1,25 @@
 {
-    "response": [
-      {
-        "maintainer": "Onelots",
-        "oem": "Xiaomi",
-        "device": "Mi Mix 2S",
-        "filename": "EvolutionX-15.0-20250204-polaris-10.2.1-Official.zip",
-        "download": "https://sourceforge.net/projects/evolution-x/files/polaris/15/EvolutionX-15.0-20250204-polaris-10.2.1-Official.zip/download",
-        "timestamp": 1738751388,
-        "md5": "17b02275fa4111985c9b8089ac885143",
-        "sha256": "4fefdab8cf12f1878b1416fe84dbabe5818b3e061e844f2c9c02c0034cc79ec6",
-        "size": 2286669195,
-        "version": "10.2.1",
-        "buildtype": "Release",
-        "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-1-12-31-2024.4711093/",
-        "firmware": "",
-        "paypal": "https://paypal.me/0nelots",
-        "telegram": "https://t.me/onelots",
-        "github": "oneloutre",
-        "initial_installation_images": [
-          "recovery"
-        ]
-      }
-    ]
-  }
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "oem": "Xiaomi",
+      "device": "Mi Mix 2S",
+      "filename": "EvolutionX-15.0-20250204-polaris-10.2.1-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/polaris/15/EvolutionX-15.0-20250204-polaris-10.2.1-Official.zip/download",
+      "timestamp": 1738751388,
+      "md5": "17b02275fa4111985c9b8089ac885143",
+      "sha256": "4fefdab8cf12f1878b1416fe84dbabe5818b3e061e844f2c9c02c0034cc79ec6",
+      "size": 2286669195,
+      "version": "10.2.1",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-1-12-31-2024.4711093/",
+      "firmware": "",
+      "paypal": "https://paypal.me/0nelots",
+      "telegram": "https://t.me/onelots",
+      "github": "oneloutre",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
