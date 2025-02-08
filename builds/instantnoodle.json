@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "oem": "Oneplus",
+      "device": "8",
+      "filename": "EvolutionX-15.0-20250206-instantnoodle-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/instantnoodle/15/EvolutionX-15.0-20250206-instantnoodle-10.3-Official.zip/download",
+      "timestamp": 1738801858,
+      "md5": "7460f52363864e139f26e772214915b1",
+      "sha256": "16d48c2c77a9a97b5bed073c3af346931ca9e45aae2b11d48f8c961a0e229924",
+      "size": 2547094845,
+      "version": "10.3",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-15-0-qpr1-official-evolution-x-10-3-02-07-25.4480927/",
+      "firmware": "",
+      "paypal": "https://paypal.me/manidreddy1",
+      "telegram": "https://t.me/manid_reddy",
+      "github": "manidweep",
+      "initial_installation_images": [
+        "recovery",
+        "vbmeta",
+        "dtbo"
+      ]
+    }
+  ]
+}
