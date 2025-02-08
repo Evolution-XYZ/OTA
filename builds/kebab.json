@@ -1,0 +1,27 @@
+{
+  "response": [
+    {
+      "maintainer": "Manidweep",
+      "oem": "OnePlus",
+      "device": "8T",
+      "filename": "EvolutionX-15.0-20250206-kebab-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/kebab/15/EvolutionX-15.0-20250206-kebab-10.3-Official.zip/download",
+      "timestamp": 1738812385,
+      "md5": "dea31f1480f9a8a60cb66e7d2aa54415",
+      "sha256": "65b29c0d5fce3390f652cd9a1269e70e932418102cfbc2f09b0ca4a60439d85b",
+      "size": 2463767976,
+      "version": "10.3",
+      "buildtype": "Release",
+      "forum": "https://xdaforums.com/t/rom-15-0-qpr1-official-evolution-x-10-3-02-07-25.4480927/",
+      "firmware": "",
+      "paypal": "https://paypal.me/manidreddy1",
+      "telegram": "https://t.me/manid_reddy",
+      "github": "manidweep",
+      "initial_installation_images": [
+        "recovery",
+        "vbmeta",
+        "dtbo"
+      ]
+    }
+  ]
+}
