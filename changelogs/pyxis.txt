@@ -3,8 +3,10 @@ This is Android 15 QPR1 with February 2025 security patches
 Notes:
 ==============================
 LineageOS-based source. Signed build.
-Play Integrity passes, RCS works (As of 02/7/2025).
-Dirty flash should be okay from 10.2
+Play Integrity passes, RCS works (As of 02/9/2025).
+Fixed G Login
+Fixed Storage showing incorrect values
+Dirty flash should be okay
 
 ===================
 ROM Sources
