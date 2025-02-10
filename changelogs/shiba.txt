@@ -1,43 +1,43 @@
-This is Android 15 QPR1 with January 2025 security patches
+This is Android 15 QPR1 with Feb 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 02/02/2025).
+- Play Integrity passes, RCS works (As of 02/09/2025).
 
 
 Device changes:
 ==============================
-
-Notable ROM changes:
-==============================
-CarrierConfigManager: Enable inflate signal strength by default
-Drop custom adb drawable
-Edge light: Fix blink/pulse mode corner radius
-Evolver: Add switch for compact HUN
-Evolver: Hide 3 button nav customization when using gesture nav
-Evolver: Move to JSON PIF implementation
-LineageParts: Fix overlapping interval seekbar texts in RTL
-LineageParts: Support breath LED mode
-PixelPropsUtils: Improve spoofing
-Settings: Adaptive Playback: Enable dynamicColor on lottie
-Settings: Add vibration patterns from OOS
-Settings: Do not hide Now Playing for Pixel devices
-Settings: Fixup fingerprint enroll finish layout
-Settings: Improve udfps enroll introduction layout
-Settings: Retain udfps overlay shown state on restoring activity
-Settings: Set key order on addition (fixes random re-ordering)
-Settings: Use default letter spacing for category titles
-Settings: Use internal display brightness in overlay displays
-SystemUI: Allow long pressing timer chips to directly stop the action
-SystemUI: Fixup cast chip long press when not showing a timer
-SystemUIGoogle: Inject changes for Smart Pixels
-apns-conf: Update Imobile config
-apns: Add WE EG
-config: properties: Add pihooks default values
-core: Introduce SystemRestartUtils
-fix vtservice cpu hogging
-iconshapes: Set config_bottomDialogCornerRadius to 16dp
-overlay: Set AOSP webview as fallback
-sepolicy: Allow gmscore_app to set system_prop
+Update Firmware to Feb 2025
+===================
+ROM Sources
+===================
+BlackTheme: Make more container surfaces black
+Disable Game default frame rate feature
+Evolver: Bring in features from rising
+Evolver: Fix quick pull down rtl values
+Evolver: Implement Better QS (optional toggle)
+Evolver: Introduce Volume Styles
+Evolver: OverlaySwitchPreference: Update
+Evolver: Show restart SystemUI dialog for some toggles
+GameSpace: Integrate LMOFreeform to quick start apps
+Merge February 2025 security patches
+OmniStyle: Add more QS Header image packs
+Settings: Add system haptics intensity settings
+SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
+Update translations
+aconfig: Disable FRP enforcement
+apps: Include prebuilt Accord music player
+check_boot_jars: Whitelist LMOFreeform
+config: Build LMO Freeform app and sidebar
+config: Disable RescueParty
+config: Remove useless addon.d file
+overlay: device_config: Add values required for Speech Recognition
+overlay: device_config: Escape special characters
+overlay: device_config: Updates
+properties: Set default game props
+themes: Expose values for theming settings
+themes: Import notification, progress bar and power menu themes
+vendor: Overlay PermissionController to use headline font from framework resource
+version: Uprev to 10.3
