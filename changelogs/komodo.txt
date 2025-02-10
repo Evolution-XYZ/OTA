@@ -1,35 +1,43 @@
-This is Android 15 QPR1 with January 2024 security patches
+This is Android 15 QPR1 with Feb 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 01/24/2024).
+- Play Integrity passes, RCS works (As of 02/09/2025).
 
 
 Device changes:
 ==============================
-Update device firmware to Jan 2024
-Added Google Face Unlock
-
-
-Notable ROM changes:
-==============================
-Bluetooth: Add missing connect permission
-CarrierConfigManager: Enable inflate signal strength by default
-Edge light: Fix blink/pulse mode corner radius
-Evolver: Add animations to quick settings tiles
-Evolver: Add QS Header Image customization
-Evolver: Add support for UDFPS icons
-Evolver: Add switch for compact HUN
-Evolver: Allow to disable Pixel Launcher customization
-Evolver: Improve Pixel spoofing
-PIF: Update to latest beta values
-PixelPropsUtils: Improve Pixel spoofing
-Settings: Adaptive Playback: Enable dynamicColor on lottie
-Settings: Add vibration patterns from OOS
-Settings: Fix memory leak on wifi
-SystemUI: Constrain keyguard indication area burn-in offset
-SystemUIGoogle: Inject changes for Smart Pixels
-Update BCR to 1.76
-core: Introduce SystemRestartUtils
+Update Firmware to Feb 2025
+===================
+ROM Sources
+===================
+BlackTheme: Make more container surfaces black
+Disable Game default frame rate feature
+Evolver: Bring in features from rising
+Evolver: Fix quick pull down rtl values
+Evolver: Implement Better QS (optional toggle)
+Evolver: Introduce Volume Styles
+Evolver: OverlaySwitchPreference: Update
+Evolver: Show restart SystemUI dialog for some toggles
+GameSpace: Integrate LMOFreeform to quick start apps
+Merge February 2025 security patches
+OmniStyle: Add more QS Header image packs
+Settings: Add system haptics intensity settings
+SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
+Update translations
+aconfig: Disable FRP enforcement
+apps: Include prebuilt Accord music player
+check_boot_jars: Whitelist LMOFreeform
+config: Build LMO Freeform app and sidebar
+config: Disable RescueParty
+config: Remove useless addon.d file
+overlay: device_config: Add values required for Speech Recognition
+overlay: device_config: Escape special characters
+overlay: device_config: Updates
+properties: Set default game props
+themes: Expose values for theming settings
+themes: Import notification, progress bar and power menu themes
+vendor: Overlay PermissionController to use headline font from framework resource
+version: Uprev to 10.3
