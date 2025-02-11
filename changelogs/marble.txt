@@ -7,55 +7,47 @@ Notes:
 - Use latest TWRP or OFRP-R11.1_6-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install LosKsu10.x.zip (https://sourceforge.net/projects/evolution-x/files/marble/15/LosKsu10.x.zip/download) for root.
-- Play Integrity passes, RCS works (As of 02/06/2025).
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
+- Play Integrity passes, RCS works (As of 02/11/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Set product shipping API level to 33
-audio: add compress recording configurations
-audio: enable compress voip
-audio: offload 24 bits playback supports mp3/aac format
-audio: update audio_io_policy for VoIP
-audio: update audio_io_policy.conf
-gps: Avoid access of deprecated LocUnorderedSetMap entry
-gps: GNSS adapter: simplify getElapsed real time logic in PVT report
-overlay: Add FPS info support
-rootdir: common: Add permissions to access eSE device node
-rootdir: common: Change name of eSE device node
-rootdir: device: qcom: common: add system permission for power_state
-rootdir: init.qcom.post_boot: Remove logging to kmsg device
-sepolicy: Silence selinux logspam
+Remove audio changes as they did not fix audio focus issue (Google implementation for A15)
+Update kernel to 5.10.230
+sepolicy: Address fingerprint denial
+sepolicy: Label more properties
 
 Notable ROM changes:
 ==============================
-BlackTheme: Make more container surfaces black
-Disable Game default frame rate feature
-Evolver: Bring in features from rising
-Evolver: Fix quick pull down rtl values
-Evolver: Implement Better QS (optional toggle)
-Evolver: Introduce Volume Styles
-Evolver: OverlaySwitchPreference: Update
-Evolver: Show restart SystemUI dialog for some toggles
-GameSpace: Integrate LMOFreeform to quick start apps
-Merge February 2025 security patches
-OmniStyle: Add more QS Header image packs
-Settings: Add system haptics intensity settings
-SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
-Update translations
-aconfig: Disable FRP enforcement
-apps: Include prebuilt Accord music player
-check_boot_jars: Whitelist LMOFreeform
-config: Build LMO Freeform app and sidebar
-config: Disable RescueParty
-config: Remove useless addon.d file
-overlay: device_config: Add values required for Speech Recognition
-overlay: device_config: Escape special characters
-overlay: device_config: Updates
-properties: Set default game props
-themes: Expose values for theming settings
-themes: Import notification, progress bar and power menu themes
-vendor: Overlay PermissionController to use headline font from framework resource
-version: Uprev to 10.3
+Disable smartpace page indicator if custom clock is enabled
+Evolver: Add lockscreen widgets settings
+Evolver: Add percentage view to brightness slider
+Evolver: Add QS Widgets
+Evolver: Add shortcut to configure Weather settings
+Evolver: Allow hiding QS footer data usage
+Evolver: Introduce AOD styles
+Evolver: Introduce Now bar feature
+Evolver: Introduce Peek Display feature
+Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
+Evolver: Revamp lockscreen clock and font picker
+Evolver: Revamp settings font picker
+Fix crash on light/dark theme toggle
+Fonts: Add MotoMilkyStacked clock font
+Fonts: Add NothingOS 3.0 clock fonts
+Fonts: Add new lockscreen clock fonts
+Fonts: Add rookery font from motorola
+Lockscreen Info: Fix conversion crashes and possible div by zero
+OmnijawsClient: Fix NPE
+QS Data Usage: Fix janks when expanding QS Panel
+Settings: Disable SettingsDumpService
+Settings: Modernize dev option insults
+Show custom clocks in lockscreen preview
+SystemUI: Add Weather tile based on OmniJaws client
+SystemUI: Implement Weather views
+SystemUI: Prevent indicator text cutting off in biometric prompt
+VerticalSlider: Reland slider animation fixes
+Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
+config: Build OmniJaws service
+core: Add OmniJawsClient
