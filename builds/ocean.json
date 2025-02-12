@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Rondeau79",
+      "oem": "Motorola",
+      "device": "Moto G7 Power",
+      "filename": "EvolutionX-15.0-20250210-ocean-10.3-Vanilla-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/Ocean/15/vanilla/EvolutionX-15.0-20250210-ocean-10.3-Vanilla-Official.zip/download",
+      "timestamp": 1739238496,
+      "md5": "b49e2d0b212fd62421061c34074a7f86",
+      "sha256": "f14a93ea8d0e31f814eb862a0328cccaa9afff119c61be1aea3371a3bf8aba6e",
+      "size": 1033313512,
+      "version": "10.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-0-official-vanilla-10-3-02-10-2025.4718051/",
+      "firmware": "",
+      "paypal": "",
+      "telegram": "",
+      "github": "Rondeau79",
+       "initial_installation_images": [
+        "boot",
+        "dtbo"
+      ]
+    }
+  ]
