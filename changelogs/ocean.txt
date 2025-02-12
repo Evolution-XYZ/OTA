@@ -1,0 +1,5 @@
+Initial EvoX 15.0 v10.3 Vanilla build
+February SPL
+GAPPS not included
+Clean flash required
+PLease make sure your A/B partions are correct before flashing!
