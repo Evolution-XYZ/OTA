@@ -4,50 +4,52 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Play Integrity passes, RCS works (As of 02/06/2025).
+- Play Integrity passes, RCS works (As of 02/13/2025).
 - Includes XiaomiParts, Dolby Atmos and Leica camera.
 - Credits to Arian16k, FlowerSea, GR, RobertGarciaa, ralph20060412.
 
 Device changes:
 ==============================
-Move citsensorservice to background cpuset
-overlay: Remove config_cellBroadcastAppLinks
-overlay: Update configs
-rootdir: Add "system" group to Audio HAL
-rootdir: add context_hub into audio hal group
-rootdir: Enable RT priority inheritance
-rootdir: Optimize for Spatial Audio
-sepolicy: Label more wakeup dirs
-wifi: Update Wi-Fi configs from star V816.0.9.0.UKAMIXM
-wifi: import missing wpa_supplicant configs from stock
+None
 
 Notable ROM changes:
 ==============================
-BlackTheme: Make more container surfaces black
-Disable Game default frame rate feature
-Evolver: Bring in features from rising
-Evolver: Fix quick pull down rtl values
-Evolver: Implement Better QS (optional toggle)
-Evolver: Introduce Volume Styles
-Evolver: OverlaySwitchPreference: Update
-Evolver: Show restart SystemUI dialog for some toggles
-GameSpace: Integrate LMOFreeform to quick start apps
-Merge February 2025 security patches
-OmniStyle: Add more QS Header image packs
-Settings: Add system haptics intensity settings
-SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions
-Update translations
-aconfig: Disable FRP enforcement
-apps: Include prebuilt Accord music player
-check_boot_jars: Whitelist LMOFreeform
-config: Build LMO Freeform app and sidebar
-config: Disable RescueParty
-config: Remove useless addon.d file
-overlay: device_config: Add values required for Speech Recognition
-overlay: device_config: Escape special characters
-overlay: device_config: Updates
-properties: Set default game props
-themes: Expose values for theming settings
-themes: Import notification, progress bar and power menu themes
-vendor: Overlay PermissionController to use headline font from framework resource
-version: Uprev to 10.3
+Add an option to switch between native/LMO freeform
+Disable smartpace page indicator if custom clock is enabled
+Evolver: Add freeform mode switch
+Evolver: Add lockscreen widgets settings
+Evolver: Add percentage view to brightness slider
+Evolver: Add QS Widgets
+Evolver: Add shortcut to configure Weather settings
+Evolver: Allow hiding QS footer data usage
+Evolver: Introduce AOD styles
+Evolver: Introduce Now bar feature
+Evolver: Introduce Peek Display feature
+Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
+Evolver: Revamp lockscreen clock and font picker
+Evolver: Revamp settings font picker
+FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL switch
+Fix crash on light/dark theme toggle
+Fonts: Add MotoMilkyStacked clock font
+Fonts: Add NothingOS 3.0 clock fonts
+Fonts: Add new lockscreen clock fonts
+Fonts: Add rookery font from motorola
+Lockscreen Info: Fix conversion crashes and possible div by zero
+Make AOSP native freeform windows always-on-top
+OmnijawsClient: Fix NPE
+QS Data Usage: Fix janks when expanding QS Panel
+Settings: Disable SettingsDumpService
+Settings: Modernize dev option insults
+Show custom clocks in lockscreen preview
+SystemUI: Add Weather tile based on OmniJaws client
+SystemUI: Intensity based QS fling haptics
+SystemUI: Implement intensity-based QS tiles haptic feedback
+SystemUI: Implement Weather views
+SystemUI: Prevent indicator text cutting off in biometric prompt
+VerticalSlider: Reland slider animation fixes
+Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
+apns: Update for ChinaTelecom Macau (CTMO)
+config: Build OmniJaws service
+core: Add OmniJawsClient
+wm: Ensure freeform tasks bounds gets updated when launching tasks
+wm: Fix freeform window minimize not working
