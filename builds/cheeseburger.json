@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "oem": "OnePlus",
+      "device": "5",
+      "filename": "EvolutionX-15.0-20250213-cheeseburger-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/cheeseburger/15/EvolutionX-15.0-20250213-cheeseburger-10.3-Official.zip/download",
+      "timestamp": 1739418825,
+      "md5": "876d8562bc1b773caee6f623e452e249",
+      "sha256": "73a9adc7ffceaa8b103afe16f3e2ad1aad2449c306db35a77c18839e227339d6",
+      "size": 1913947412,
+      "version": "10.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-3-02-13-2025.4718524/#post-89953706",
+      "firmware": "",
+      "paypal": "https://paypal.me/Onelots",
+      "telegram": "https://t.me/onelots",
+      "github": "oneloutre",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "response": [
+    {
+      "maintainer": "Onelots",
+      "oem": "OnePlus",
+      "device": "5T",
+      "filename": "EvolutionX-15.0-20250213-dumpling-10.3-Official.zip",
+      "download": "https://sourceforge.net/projects/evolution-x/files/dumpling/15/EvolutionX-15.0-20250213-dumpling-10.3-Official.zip/download",
+      "timestamp": 1739407983,
+      "md5": "ed561b17b231a2f080680546afd744b9",
+      "sha256": "2f573fe154c9a2f47d75f177a69d846bd814d64105e5e6439210f3e93f0861df",
+      "size": 1913926425,
+      "version": "10.3",
+      "buildtype": "userdebug",
+      "forum": "https://xdaforums.com/t/rom-15-official-evolution-x-10-3-02-13-2025.4718524/#post-89953706",
+      "firmware": "",
+      "paypal": "https://paypal.me/Onelots",
+      "telegram": "https://t.me/onelots",
+      "github": "oneloutre",
+      "initial_installation_images": [
+        "recovery"
+      ]
+    }
+  ]
+}
