@@ -1,36 +1,17 @@
-This is Android 14 with November 2024 security patches
+This is Android 14 with February 2025 security patches
 
 Notes:
 ==============================
 - LineageOS-based source. Signed build. Gapps version.
-- Play Integrity passes, RCS works (As of 11/16/2024).
+- Play Integrity passes, RCS works (As of 02/14/2025).
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to Hakan.
 
 Device changes:
 ==============================
-Add atcmdfwd on framework compatibility matrix
-Build missing libraries for 14 QPR3
-Convert WiFi firmware symlinks to install_symlink targets
-Declare IMS libs as symlinks during extraction
-Decommonize TARGET_TS_MAKEUP
-Disable the usage of ConfigStore.
-Explicitly disable protected management frames
-Include lineage FCM
-Inherit from QTI FCM
-Inherit from legacy QTI FCM
-Move to QTI health AIDL service
-Move to new RFS install_symlink targets
-Set manifest target-level to 5
-Specify caymanslm source at the top
-Switch to QTI vibrator HAL
-Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
-parts: Get rid of proguard flags
+None
 
 Notable ROM changes:
 ==============================
-Merge November 2024 security patches
-Remove fading squiggle animation of qs media player
-SenseProvider: Allow our face unlock to be used on third-party apps
-UdfpsAnimation: Address memory leaks and improvements
-vars: Update qcom tags
+Evolver: Update spoof impl
+Merge February 2025 security patches
