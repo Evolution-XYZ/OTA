@@ -8,52 +8,32 @@ Notes:
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
-- Play Integrity passes, RCS works (As of 02/13/2025).
+- Play Integrity passes, RCS works (As of 02/16/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
-Remove audio changes as they did not fix audio focus issue (Google implementation for A15)
-sepolicy: Address fingerprint denial
-sepolicy: Label more properties
+Bring back proprietary listen sound model (fix OK Google commands)
+Build DSPVolumeSynchronizer
+Build QtiTelephonyCompat
+Camera: Import missing blobs for processing noise reduction in low light environments (fix noise in photos)
+Turn off persist.vendor.radio.poweron_opt (fix USSD dialer codes)
+Update device variant fingerprints
+sepolicy: Remove duplicate snxxx AIDL rules
 
 Notable ROM changes:
 ==============================
-Add an option to switch between native/LMO freeform
-Disable smartpace page indicator if custom clock is enabled
-Evolver: Add freeform mode switch
-Evolver: Add lockscreen widgets settings
-Evolver: Add percentage view to brightness slider
-Evolver: Add QS Widgets
-Evolver: Add shortcut to configure Weather settings
-Evolver: Allow hiding QS footer data usage
-Evolver: Introduce AOD styles
-Evolver: Introduce Now bar feature
-Evolver: Introduce Peek Display feature
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Evolver: Revamp lockscreen clock and font picker
-Evolver: Revamp settings font picker
-Fix crash on light/dark theme toggle
-Fonts: Add MotoMilkyStacked clock font
-Fonts: Add NothingOS 3.0 clock fonts
-Fonts: Add new lockscreen clock fonts
-Fonts: Add rookery font from motorola
-Lockscreen Info: Fix conversion crashes and possible div by zero
-Make AOSP native freeform windows always-on-top
-OmnijawsClient: Fix NPE
-QS Data Usage: Fix janks when expanding QS Panel
-Settings: Disable SettingsDumpService
-Settings: Modernize dev option insults
-Show custom clocks in lockscreen preview
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Intensity based QS fling haptics
-SystemUI: Implement intensity-based QS tiles haptic feedback
-SystemUI: Implement Weather views
-SystemUI: Prevent indicator text cutting off in biometric prompt
-VerticalSlider: Reland slider animation fixes
-Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-config: Build OmniJaws service
-core: Add OmniJawsClient
-wm: Ensure freeform tasks bounds gets updated when launching tasks
-wm: Fix freeform window minimize not working
+Add GeneralSans font overlay
+Add Poppins font
+Add SansSerifPro Font
+Add Volte Round Font
+Evolver: Add back island notifications
+Evolver: Add transparent notification style
+Fix NPE upon android.intent.action.LOCALE_CHANGED
+Fix popping up the the VoLTE screen when it's disabled by the carrier
+Settings: Add a toggle for long press on navbar to search
+SystemUI: Remove split navigation bar layout for sw900dp
+Update Cocon font
+health: Format notification's target time according to locale
+soong: Disable sandbox
