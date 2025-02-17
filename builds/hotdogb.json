@@ -18,9 +18,9 @@
       "telegram": "https://t.me/onelots",
       "github": "oneloutre",
       "initial_installation_images": [
-        "boot",
         "vbmeta",
-        "dtbo"
+        "dtbo",
+	"recovery"
       ]
     }
   ]
