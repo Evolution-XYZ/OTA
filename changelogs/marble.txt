@@ -7,7 +7,7 @@ Notes:
 - Use latest TWRP or OFRP-R11.1_6-Beta-marble.zip as recovery.
 - Clean flash is required if coming from March 2024 or older builds.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.230-KSU-Next-susfs.zip/download) for root.
+- Install this (https://sourceforge.net/projects/evolution-x/files/marble/15/Evo-10.x-5.10.223-KSU-Next-susfs.zip/download) for root.
 - Play Integrity passes, RCS works (As of 02/16/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
