@@ -10,42 +10,23 @@ Notes:
 
 Device Changes:
 ==============================
-11-Feb-2025
+19-Feb-2025
 ==============================
-* NOTE: Clean flash is mandatory
-* Fixed whatsapp video calling bug ( the audio was getting break on receiving notification )
-* Switched to scarlet kernel ( ksu-next support has been dropped and switched to ksu-legacy  )
-* Updated blobs from OS1.0.11.0.UMSEUXM
+* Updated to Scarlet latest kernel 
+* Updated display and Graphics (530.55) from AOSPA Vauxite
 
 Notable ROM changes:
 ==============================
-Disable smartpace page indicator if custom clock is enabled
-Evolver: Add lockscreen widgets settings
-Evolver: Add percentage view to brightness slider
-Evolver: Add QS Widgets
-Evolver: Add shortcut to configure Weather settings
-Evolver: Allow hiding QS footer data usage
-Evolver: Introduce AOD styles
-Evolver: Introduce Now bar feature
-Evolver: Introduce Peek Display feature
-Evolver: OverlaySwitchPreference: Catch and log NPE in getOverlayID
-Evolver: Revamp lockscreen clock and font picker
-Evolver: Revamp settings font picker
-Fix crash on light/dark theme toggle
-Fonts: Add MotoMilkyStacked clock font
-Fonts: Add NothingOS 3.0 clock fonts
-Fonts: Add new lockscreen clock fonts
-Fonts: Add rookery font from motorola
-Lockscreen Info: Fix conversion crashes and possible div by zero
-OmnijawsClient: Fix NPE
-QS Data Usage: Fix janks when expanding QS Panel
-Settings: Disable SettingsDumpService
-Settings: Modernize dev option insults
-Show custom clocks in lockscreen preview
-SystemUI: Add Weather tile based on OmniJaws client
-SystemUI: Implement Weather views
-SystemUI: Prevent indicator text cutting off in biometric prompt
-VerticalSlider: Reland slider animation fixes
-Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-config: Build OmniJaws service
-core: Add OmniJawsClient
+Add GeneralSans font overlay
+Add Poppins font
+Add SansSerifPro Font
+Add Volte Round Font
+Evolver: Add back island notifications
+Evolver: Add transparent notification style
+Fix NPE upon android.intent.action.LOCALE_CHANGED
+Fix popping up the the VoLTE screen when it's disabled by the carrier
+Settings: Add a toggle for long press on navbar to search
+SystemUI: Remove split navigation bar layout for sw900dp
+Update Cocon font
+health: Format notification's target time according to locale
+soong: Disable sandbox
