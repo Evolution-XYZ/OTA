@@ -3,7 +3,7 @@ This is Android 15 QPR1 with February 2025 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Play Integrity passes, RCS works (As of 02/11/2025).
+- Play Integrity passes, RCS works (As of 02/19/2025).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Divyanshu, Tashar, RDX.
 
@@ -14,6 +14,7 @@ Device Changes:
 ==============================
 * Updated to Scarlet latest kernel 
 * Updated display and Graphics (530.55) from AOSPA Vauxite
+* Fixed Night light, Extra dim and Colours profile
 
 Notable ROM changes:
 ==============================
