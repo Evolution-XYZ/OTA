@@ -19,3 +19,10 @@ Changelog
 - fix glyph interface failing to work randomly
 - enable adjusting volume steps
 - [ROM] Implement JSON style Play Integrity Fix
+
+
+22/02/2025
+-----------------
+initial 10.3 release
+Fix powershare toggle
+Update meteoric kernel to v5.1
